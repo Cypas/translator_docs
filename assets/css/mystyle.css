@@ -1,0 +1,80 @@
+/* simple这个主题大部分并没有提供默认值，样式还是得自己改 */
+
+:root {
+    /* 全局字体大小 */
+    --base-font-size: 15px;
+    --base-font-family:Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+
+    /* 主题色调 */
+    --theme-hue: 325;
+    /* 侧边栏项目符号 */
+    --sidebar-nav-link-before-content: '';
+
+    /* --link-color:rgb(23, 147, 209); */
+    --link-color:#42b983;
+
+    --code-font-size:.8rem;
+    --code-font-family:Roboto Mono,Monaco,courier,monospace;
+    --code-inline-color:#e96900;
+    --code-inline-margin:0 2px;
+    --code-inline-padding:3px 5px;
+    --code-inline-border-radius:2px;
+    --code-inline-background:#f8f8f8;
+
+    --heading-h1-font-size:2rem;
+    --heading-h1-margin: 0 0 1rem;
+    --heading-h2-font-size:1.75rem;
+    --heading-h2-margin: 45px 0 .8rem;
+    --heading-h3-font-size:1.5rem;
+    --heading-h3-margin:40px 0 .6rem;
+    --heading-h4-font-size:1.25rem;
+    --heading-h5-font-size:1rem;
+    --heading-h6-font-size:1rem;
+    --heading-h6-color:#777;
+  }
+
+  /* tabs style */
+  :root {
+    /* Tab blocks */
+    --docsifytabs-border-color          : #ededed;
+    --docsifytabs-border-px             : 1px;
+    --docsifytabs-border-radius-px      : ;
+    --docsifytabs-margin                : 1.5em 0;
+
+    /* Tabs */
+    --docsifytabs-tab-background        : #f8f8f8;
+    --docsifytabs-tab-background--active: var(--docsifytabs-content-background);
+    --docsifytabs-tab-color             : #999;
+    --docsifytabs-tab-color--active     : inherit;
+    --docsifytabs-tab-highlight-px      : 3px;
+    --docsifytabs-tab-highlight-color   : var(--theme-color, currentColor);
+    --docsifytabs-tab-padding           : 0.6em 1em;
+
+    /* Tab content */
+    --docsifytabs-content-background    : inherit;
+    --docsifytabs-content-padding       : 1.5rem;
+}
+
+  .sidebar-nav p {
+    font-weight: 700;
+    margin: 0;
+}
+
+div#app {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 40vh auto;
+  text-align: center
+}
+
+.markdown-section del {
+  font-size: 0.8rem;
+  color:#6a7676;
+  padding: 0px 3px;
+  text-align: center;
+}
+
+.app-name-link img {
+  width: 60%;
+}
+
