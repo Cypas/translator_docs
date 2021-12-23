@@ -5,11 +5,11 @@
 
 ## 特别鸣谢
 
-[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  离线OCR基于此框架搭建
+[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  本地ocr基于此框架搭建
 
-[QPT打包工具](https://github.com/GT-ZhangAcer/QPT)  离线OCR基于此工具打包
+[QPT打包工具](https://github.com/GT-ZhangAcer/QPT)  本地ocr基于此工具打包
 
-[GT-Zhang](https://github.com/GT-ZhangAcer) 离线OCR开发过程给予了诸多帮助的大佬
+[GT-Zhang](https://github.com/GT-ZhangAcer) 本地ocr开发过程给予了诸多帮助的大佬
 
 [C4a15Wh](https://c4a15wh.cn) 星河云在线OCR(团子在线ocr)主力开发
 

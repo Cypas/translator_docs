@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="keywords" content="团子翻译器,团子翻译器文档,使用文档,翻译器,OCR,免费,屏幕识别,翻译" />
+  <meta name="keywords" content="团子翻译器,团子翻译器文档,使用文档,翻译器,OCR,免费,屏幕识别,翻译,dango,Dango,dangotranslator,DangoTranslator" />
   <meta name="description" content="团子翻译器是一款免费的，集成ocr与翻译功能的屏幕识别软件，可帮助理解大部分英文/日文游戏" />
   <!-- 谷歌站点收录-->
   <meta name="google-site-verification" content="dVqMcpseHSaXIWxo5DukU_l6Q9uRcTdiSSPK4n6DOaU" />
@@ -20,7 +20,7 @@
   <link rel="icon" href="assets/img/01.ico">
   <!-- Theme: Simple (latest v0.x.x) -->
   <!-- <link rel="stylesheet" href="/assets/css/theme-simple.css"> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="/assets/css/theme-simple.css">
   <link rel="stylesheet" href="/assets/css/mystyle.css">
 
   <!-- gif图控制器  文档https://gbodigital.github.io/docsify-gifcontrol/#/-->
@@ -44,7 +44,7 @@
       loadNavbar: true,//加载导航栏
       // coverpage: true,//加载封面图
       name: '🌈 团子翻译器',
-      logo: 'assets/img/logo.png',
+      // logo: 'assets/img/logo.png',
       routerMode: 'hash',//hash模式模式与history模式切换，默认hash模式
       auto2top: true,//切换页面后是否跳转到页面顶部
       mergeNavbar: true,//小屏下合并导航栏到侧边栏
@@ -102,71 +102,37 @@
     };
 
   </script>
-  <!-- Docsify v4 核心文件 -->
-  <!-- <script src="/assets/js/docsify.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-  <!-- 主题 -->
-  <!-- <script src="/assets/js/docsify-themeable.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-
-  <!-- 全局搜索插件 -->
-  <!-- <script src="/assets/js/search.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-
-
-  <!-- 文章计数插件 -->
-  <!-- 只能国外访问，速度极慢，建议本地 -->
-  <script src="/assets/js/countable.js"></script>
-  <!-- <script src="//unpkg.com/docsify-count/dist/countable.js"></script> -->
-
-
-  <!-- 前后翻页按钮 -->
-  <!-- <script src="/assets/js/docsify-pagination.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
-
-  <!-- 复制代码到剪切板按钮 -->
-  <!-- <script src="/assets/js/docsify-copy-code.js"></script> -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script> -->
-
-
-  <!-- Medium's 风格的图片缩放 -->
-  <!-- <script src="/assets/js/zoom-image.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-
-
-  <!-- emoji表情支持 -->
-  <!-- <script src="/assets/js/emoji.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-
-  <!-- 注册离线浏览（pwa） 暂时关了写完再开-->
+  <script src="assets/main_js/require.js"></script>
   <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('sw.js')
+    require.config({
+    paths : {
+        "docsify" : ["https://cdn.delivr.net/npm/docsify/lib/docsify.min","assets/js/docsify.min"],
+        "docsify-themeable" : ["https://cdn.delivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min","assets/js/docsify-themeable.min"],  
+        "countable" : ["assets/js/countable"],  
+        "docsify-pagination" : ["https://cdn.delivr.net/npm/docsify-pagination/dist/docsify-pagination.min","assets/js/docsify-pagination.min"],  
+        "zoom-image" : ["https://cdn.delivr.net/npm/docsify/lib/plugins/zoom-image.min","assets/js/zoom-image.min"],  
+        "emoji" : ["https://cdn.delivr.net/npm/docsify/lib/plugins/emoji.min","assets/js/emoji.min"],  
+        "docsify-plugin-flexible-alerts" : ["https://cdn.delivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min","assets/js/docsify-plugin-flexible-alerts.min"],  
+        "prism-markdown" : ["https://cdn.delivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown","assets/js/prism-markdown"],  
+        "docsify-tabs" : ["https://cdn.delivr.net/npm/docsify-tabs@1?noext","assets/js/docsify-tabs@1"],
+        "docsify-footer" : ["https://cdn.delivr.net/npm/docsify-footer-enh/dist/docsify-footer.min","assets/js/docsify-footer.min"],  
     }
+})
+
+require(["docsify","docsify-themeable","countable","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","prism-markdown","docsify-tabs","docsify-footer",],
+    function(){
+        console.log("all js load finished");  
+    }
+)
   </script>
 
-  <!-- Markdown 引用样式美化，使用方法参考 https://github.com/fzankl/docsify-plugin-flexible-alerts -->
-  <!-- <script src="/assets/js/docsify-plugin-flexible-alerts.js"></script> -->
-  <script
-    src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
-
-  <!-- TODO Add prism-bash, prism-python, prism-javascript etc. as separate items to load highlighting for that language -->
-  <!-- <script src="/assets/js/prism-markdown.js"></script> -->
-  <script src="//cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown.js"></script>
-
-  <!-- docsify-tabs (latest v1.x.x) 使用文档https://jhildenbiddle.github.io/docsify-tabs/#/-->
-  <!-- <script src="/assets/js/tab.js"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-
-  <!-- 文档页脚增强 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
-
-  <!-- gif图控制器  文档https://gbodigital.github.io/docsify-gifcontrol/#/-->
-  <!-- 只能国外访问，速度极慢，建议本地 -->
-  <!-- <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script> -->
-  <!-- <script src="/assets/js/docsify-gifcontrol.js"></script> -->
+<!-- 注册离线浏览（pwa） 暂时关了写完再开-->
+<script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
 
 
 </body>
