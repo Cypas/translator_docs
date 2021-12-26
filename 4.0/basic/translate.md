@@ -40,7 +40,9 @@
 
 ![立刻实名](../assets/img/14.webp ':size=50%')
 
-如果你碰到此处`没有填写姓名和身份证的地方`，参考[百度注册常见问题](/3.6/FAQ/faq?id=%e7%99%be%e5%ba%a6%e7%bf%bb%e8%af%91api%e6%b3%a8%e5%86%8c%e6%97%b6%e6%b2%a1%e6%9c%89%e5%a1%ab%e8%ba%ab%e4%bb%bd%e8%af%81%e5%92%8c%e5%a7%93%e5%90%8d%e7%9a%84%e5%9c%b0%e6%96%b9%e7%99%be%e5%ba%a6%e7%bf%bb%e8%af%91%e6%97%a0%e6%b3%95%e6%b3%a8%e5%86%8c)
+如果你碰到此处`没有填写姓名和身份证的地方`，可采用如下解决办法
+- 按ctrl F5强制刷新一下网页，然后稍等一会儿
+- 也可以换浏览器重试，[chrome](https://www.google.cn/chrome/)，[firefox](https://www.mozilla.org/zh-CN/firefox/windows)，[edge](https://www.microsoft.com/zh-cn/edge)三选一，不要用国产浏览器
 
 6. 点击开通服务
 
@@ -67,7 +69,11 @@
 
 ![点击总览](../assets/img/20.webp ':size=50%')
 
-12. 将得到的两个密钥复制粘贴到团子翻译器内`翻译设定-百度 密钥`的地方，并打开百度翻译的开关
+12.  页面滑到最下面，有个申请信息，里面是`appid和密钥`
+
+![申请信息](../assets/img/21.webp ':size=50%')
+
+13.  将得到的appid和密钥复制粘贴到团子翻译器内`翻译设定-百度 密钥`的地方，并打开百度翻译的开关
 
 ![输入密钥](../assets/img/114.webp ':size=50%')
 

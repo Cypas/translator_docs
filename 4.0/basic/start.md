@@ -7,7 +7,6 @@
 您可以从以下位置下载团子翻译器
 
 - 官网下载: [下载地址](https://translator.dango.cloud)
-~官网界面难看了点，但是能用就行~
 
 - 群文件下载: [259748684](https://jq.qq.com/?_wv=1027&k=XZm0tQkD)
 
