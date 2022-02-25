@@ -90,7 +90,7 @@
       footer: {
         // copy: '💖友情链接  :</span>',
         // auth: "<strong><a href='https://docs2.ayano.top' target='_blank'>团子云盘</a></strong>",
-        copy: 'Copyright &copy; 2021 💖 </span>',
+        copy: 'Copyright &copy; 2019-2022 💖 </span>',
         auth: ' <strong>-团子翻译器-</strong>',
         pre: '<hr/>',
         style: 'text-align: center;',
@@ -107,22 +107,23 @@
   <script>
     require.config({
     paths : {
-        "docsify" : ["https://cdn.delivr.net/npm/docsify/lib/docsify.min","assets/js/docsify.min"],
-        "docsify-themeable" : ["https://cdn.delivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min","assets/js/docsify-themeable.min"],  
+        "docsify" : ["assets/js/docsify.min","https://cdn.delivr.net/npm/docsify/lib/docsify.min"],
+        "docsify-themeable" : ["assets/js/docsify-themeable.min","https://cdn.delivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min"],  
         "countable" : ["assets/js/countable"],  
-        "docsify-pagination" : ["https://cdn.delivr.net/npm/docsify-pagination/dist/docsify-pagination.min","assets/js/docsify-pagination.min"],  
-        "zoom-image" : ["https://cdn.delivr.net/npm/docsify/lib/plugins/zoom-image.min","assets/js/zoom-image.min"],  
-        "emoji" : ["https://cdn.delivr.net/npm/docsify/lib/plugins/emoji.min","assets/js/emoji.min"],  
-        "docsify-plugin-flexible-alerts" : ["https://cdn.delivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min","assets/js/docsify-plugin-flexible-alerts.min"],  
-        "prism-markdown" : ["https://cdn.delivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown","assets/js/prism-markdown"],  
-        "docsify-tabs" : ["https://cdn.delivr.net/npm/docsify-tabs@1?noext","assets/js/docsify-tabs@1"],
-        "docsify-footer" : ["https://cdn.delivr.net/npm/docsify-footer-enh/dist/docsify-footer.min","assets/js/docsify-footer.min"],  
+        "docsify-pagination" : ["assets/js/docsify-pagination.min","https://cdn.delivr.net/npm/docsify-pagination/dist/docsify-pagination.min"],  
+        "zoom-image" : ["assets/js/zoom-image.min","https://cdn.delivr.net/npm/docsify/lib/plugins/zoom-image.min"],  
+        "emoji" : ["assets/js/emoji.min","https://cdn.delivr.net/npm/docsify/lib/plugins/emoji.min"],  
+        "docsify-plugin-flexible-alerts" : ["assets/js/docsify-plugin-flexible-alerts.min","https://cdn.delivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min"],  
+        "prism-markdown" : ["assets/js/prism-markdown","https://cdn.delivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown"],  
+        "docsify-footer" : ["assets/js/docsify-footer.min","https://cdn.delivr.net/npm/docsify-footer-enh/dist/docsify-footer.min"],  
+        "search" : ["assets/js/search.min"],  
+        "docsify-tabs" : ["assets/js/docsify-tabs.min","https://cdn.delivr.net/npm/docsify-tabs@1?noext"],
     }
 })
 
-require(["docsify","docsify-themeable","countable","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","prism-markdown","docsify-tabs","docsify-footer",],
+require(["docsify","docsify-tabs","docsify-themeable","countable","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","docsify-footer","search"],
     function(){
-        console.log("all js load finished");  
+        console.log("偷偷冒个泡");  
     }
 )
   </script>

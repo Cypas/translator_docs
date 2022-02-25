@@ -8,7 +8,8 @@
 
 - 官网下载: [下载地址](https://translator.dango.cloud)
 
-- 群文件下载: [259748684](https://jq.qq.com/?_wv=1027&k=XZm0tQkD)
+- 用户交流群: [1064777983](https://jq.qq.com/?_wv=1027&k=HdJPOelm)
+
 
 ## 安装
 1. 4.0版本开始，本地ocr开关和启动已`整合到翻译器设置页面`内，无需额外下载
