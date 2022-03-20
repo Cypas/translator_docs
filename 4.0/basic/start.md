@@ -8,7 +8,7 @@
 
 - 官网下载: [下载地址](https://translator.dango.cloud)
 
-- 用户交流群: [1064777983](https://jq.qq.com/?_wv=1027&k=HdJPOelm)
+- 用户交流群: [1038904947](https://jq.qq.com/?_wv=1027&k=ckG5LEpr)
 
 
 ## 安装
