@@ -1,5 +1,5 @@
 - 版本选择
-  - [4.0版本(最新版软件)](/4.0/basic/start) 
+  - [4.2版本(最新版软件)](/4.0/basic/start) 
   - [3.6版本](/3.6/basic/start) 
 - [新用户须知](start)
 - [项目说明](technology)

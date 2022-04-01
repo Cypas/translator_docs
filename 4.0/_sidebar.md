@@ -15,4 +15,4 @@
 - [开发计划](/4.0/develop/plan)
 - [更新日志](/4.0/develop/changelog)
 - [加入我们](/4.0/develop/joinus)
-- [关于](/4.0/develop/about)
+
