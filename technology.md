@@ -1,5 +1,5 @@
 ## 项目说明
-- 项目于`2020年2月`立项，至今已维护`两年多`，发布十多个大版本，github star数量`3.4k`，用户规模`6w+`
+- 项目于`2020年2月`立项，至今已维护`两年多`，发布十多个大版本，github star数量`3.8k`，用户规模`6w+`
 
 - 项目代码已在[github](https://github.com/PantsuDango/Dango-Translator)开源，主要宣传渠道为[b站](https://space.bilibili.com/227927)
 
@@ -13,4 +13,4 @@
 
 [C4a15Wh](https://c4a15wh.cn) 星河云在线OCR(团子在线ocr)主力开发
 
-[Cypas_Nya](https://blog.ayano.top) 在线文档作者、团子云盘搭建者
+[Cypas_Nya](https://blog.ayano.top) 用户文档编写

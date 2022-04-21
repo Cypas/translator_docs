@@ -10,16 +10,16 @@
   <meta name="keywords" content="团子翻译器,团子翻译器文档,使用文档,翻译器,OCR,免费,屏幕识别,翻译,dango,Dango,dangotranslator,DangoTranslator" />
   <meta name="description" content="团子翻译器是一款免费的，集成ocr与翻译功能的屏幕识别软件，可帮助理解大部分英文/日文游戏" />
   <!-- 谷歌站点收录-->
-  <meta name="google-site-verification" content="dVqMcpseHSaXIWxo5DukU_l6Q9uRcTdiSSPK4n6DOaU" />
+  <!-- <meta name="google-site-verification" content="dVqMcpseHSaXIWxo5DukU_l6Q9uRcTdiSSPK4n6DOaU" /> -->
   <!-- 百度站点收录-->
-  <meta name="baidu-site-verification" content="code-75vqAjlQqG" />
+  <!-- <meta name="baidu-site-verification" content="code-75vqAjlQqG" /> -->
   <!-- 360站点收录-->
-  <meta name="360-site-verification" content="eedb77e081a58b9bf6a962baddeda276" />
+  <!-- <meta name="360-site-verification" content="eedb77e081a58b9bf6a962baddeda276" /> -->
   <!-- 搜狗站点收录-->
-  <meta name="sogou_site_verification" content="jZ88HYpnPB" />
+  <!-- <meta name="sogou_site_verification" content="jZ88HYpnPB" /> -->
+
   <link rel="icon" href="assets/img/01.ico">
   <!-- Theme: Simple (latest v0.x.x) -->
-  <!-- <link rel="stylesheet" href="/assets/css/theme-simple.css"> -->
   <link rel="stylesheet" href="/assets/css/theme-simple.css">
   <link rel="stylesheet" href="/assets/css/mystyle.css">
 
@@ -44,7 +44,7 @@
       loadNavbar: true,//加载导航栏
       // coverpage: true,//加载封面图
       name: '团子翻译器文档',
-      // logo: 'assets/img/logo2.png',
+      logo: '/assets/img/logo2.png',
       routerMode: 'hash',//hash模式模式与history模式切换，默认hash模式
       auto2top: true,//切换页面后是否跳转到页面顶部
       mergeNavbar: true,//小屏下合并导航栏到侧边栏
@@ -70,7 +70,8 @@
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto',
         placeholder: '有问题可以在这里搜索',
-        noData: '😭 没有找不到结果，可以联系管理员进行收录'
+        noData: '😭没有找不到结果，可以联系用户群管理员进行收录'
+        
       },
 
 
@@ -89,8 +90,8 @@
       },
       footer: {
         // copy: '💖友情链接  :</span>',
-        // auth: "<strong><a href='https://docs2.ayano.top' target='_blank'>团子云盘</a></strong>",
-        copy: 'Copyright &copy; 2019-2022 💖 </span>',
+        // auth: "<strong><a href='https://translator.dango.cloud' target='_blank'>翻译器官网</a></strong>",
+        copy: 'Copyright &copy; 2020-2022 💖 </span>',
         auth: ' <strong>-团子翻译器-</strong>',
         pre: '<hr/>',
         style: 'text-align: center;',
@@ -121,9 +122,9 @@
     }
 })
 
-require(["docsify","docsify-tabs","docsify-themeable","countable","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","docsify-footer","search"],
+require(["docsify","docsify-themeable","docsify-tabs","countable","search","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","docsify-footer",],
     function(){
-        console.log("呀,被发现了!如果你看到_navbar.md和_sidebar.md文件获取失败404,这是正常现象,获取失败时才会递归去获取上一级的目录文件,省去每层文件夹都要放目录文件");  
+        console.log("[🐟摸鱼中]:一时摸鱼一时爽，一直摸鱼一直爽");  
     }
 )
   </script>
