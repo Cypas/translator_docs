@@ -44,7 +44,7 @@
       loadNavbar: true,//加载导航栏
       // coverpage: true,//加载封面图
       name: '团子翻译器文档',
-      logo: '/assets/img/logo2.png',
+      // logo: '/assets/img/logo2.png',
       routerMode: 'hash',//hash模式模式与history模式切换，默认hash模式
       auto2top: true,//切换页面后是否跳转到页面顶部
       mergeNavbar: true,//小屏下合并导航栏到侧边栏
@@ -107,22 +107,35 @@
   <script src="assets/main_js/require.js"></script>
   <script>
     require.config({
+    // paths : {
+    //     "docsify" : ["assets/js/docsify.min","https://cdn.delivr.net/npm/docsify/lib/docsify.min"],
+    //     "docsify-themeable" : ["assets/js/docsify-themeable.min","https://cdn.delivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min"],  
+    //     "countable" : ["assets/js/countable"],  
+    //     "docsify-pagination" : ["assets/js/docsify-pagination.min","https://cdn.delivr.net/npm/docsify-pagination/dist/docsify-pagination.min"],  
+    //     "zoom-image" : ["assets/js/zoom-image.min","https://cdn.delivr.net/npm/docsify/lib/plugins/zoom-image.min"],  
+    //     "emoji" : ["assets/js/emoji.min","https://cdn.delivr.net/npm/docsify/lib/plugins/emoji.min"],  
+    //     "docsify-plugin-flexible-alerts" : ["assets/js/docsify-plugin-flexible-alerts.min","https://cdn.delivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min"],  
+    //     "prism-markdown" : ["assets/js/prism-markdown","https://cdn.delivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown"],  
+    //     "docsify-footer" : ["assets/js/docsify-footer.min","https://cdn.delivr.net/npm/docsify-footer-enh/dist/docsify-footer.min"],  
+    //     "search" : ["assets/js/search.min"],  
+    //     "docsify-tabs" : ["assets/js/docsify-tabs.min","https://cdn.delivr.net/npm/docsify-tabs@1?noext"],
+    // }
     paths : {
-        "docsify" : ["assets/js/docsify.min","https://cdn.delivr.net/npm/docsify/lib/docsify.min"],
-        "docsify-themeable" : ["assets/js/docsify-themeable.min","https://cdn.delivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min"],  
+        "docsify" : ["assets/js/docsify.min"],
+        "docsify-themeable" : ["assets/js/docsify-themeable.min"],  
         "countable" : ["assets/js/countable"],  
-        "docsify-pagination" : ["assets/js/docsify-pagination.min","https://cdn.delivr.net/npm/docsify-pagination/dist/docsify-pagination.min"],  
-        "zoom-image" : ["assets/js/zoom-image.min","https://cdn.delivr.net/npm/docsify/lib/plugins/zoom-image.min"],  
-        "emoji" : ["assets/js/emoji.min","https://cdn.delivr.net/npm/docsify/lib/plugins/emoji.min"],  
-        "docsify-plugin-flexible-alerts" : ["assets/js/docsify-plugin-flexible-alerts.min","https://cdn.delivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min"],  
-        "prism-markdown" : ["assets/js/prism-markdown","https://cdn.delivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown"],  
-        "docsify-footer" : ["assets/js/docsify-footer.min","https://cdn.delivr.net/npm/docsify-footer-enh/dist/docsify-footer.min"],  
+        "docsify-pagination" : ["assets/js/docsify-pagination.min"],  
+        "zoom-image" : ["assets/js/zoom-image.min"],  
+        "emoji" : ["assets/js/emoji.min"],  
+        "docsify-plugin-flexible-alerts" : ["assets/js/docsify-plugin-flexible-alerts.min"],  
+        "prism-markdown" : ["assets/js/prism-markdown"],  
+        "docsify-footer" : ["assets/js/docsify-footer.min"],  
         "search" : ["assets/js/search.min"],  
-        "docsify-tabs" : ["assets/js/docsify-tabs.min","https://cdn.delivr.net/npm/docsify-tabs@1?noext"],
+        "docsify-tabs" : ["assets/js/docsify-tabs.min"],
     }
 })
 
-require(["docsify","docsify-themeable","docsify-tabs","countable","search","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","docsify-footer",],
+require(["docsify","docsify-themeable","docsify-tabs","countable","docsify-pagination","zoom-image","emoji","docsify-plugin-flexible-alerts","docsify-footer","search"],
     function(){
         console.log("[🐟摸鱼中]:一时摸鱼一时爽，一直摸鱼一直爽");  
     }
