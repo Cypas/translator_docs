@@ -98,7 +98,7 @@
 
 ## 本地ocr运行时提示:以一种访问权限不允许的方式做了一个访问套接字的尝试
 - 表示电脑的6666端口被占用，本地ocr是通过这个端口传递数据的
-- 使用快捷键`win+r` 输入`cmd`，回车
+- 使用快捷键<kbd>win</kbd>+<kbd>r</kbd> 输入`cmd`，回车
 - 打开cmd窗口后输入`netstat -ano |findstr 6666`，回车
 - 如果这里有输出结果，将输出结果的最后一串数字记下来，如下图为3488，这个值叫做进程id
 
@@ -128,11 +128,11 @@
 - 彩云小译 > 腾讯 > 百度
 
 ## 百度翻译api注册时没有填身份证和姓名的地方/百度翻译无法注册
-- 按ctrl F5强制刷新一下网页，然后稍等一会儿
+- 按<kbd>Ctrl</kbd>+<kbd>F5</kbd>强制刷新一下网页，然后稍等一会儿
 - 也可以换浏览器重试，[chrome](https://www.google.cn/chrome/)，[firefox](https://www.mozilla.org/zh-CN/firefox/windows)，[edge](https://www.microsoft.com/zh-cn/edge)三选一，不要用国产浏览器
 
 ## 查询电脑版本信息
-- 按下`win＋r`键 输入`dxdiag` 回车，然后截取如图所示信息
+- 按下<kbd>win</kbd>+<kbd>r</kbd>键 输入`dxdiag` 回车，然后截取如图所示信息
 
 ![版本信息](../assets/img/72.webp ':size=50%')
 

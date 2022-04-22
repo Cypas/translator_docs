@@ -103,7 +103,7 @@
 ![立刻实名](../assets/img/14.webp ':size=50%')
 
 如果你碰到此处`没有填写姓名和身份证的地方`，可采用如下解决办法
-- 按ctrl F5强制刷新一下网页，然后稍等一会儿
+- 按<kbd>Ctrl</kbd>+<kbd>F5</kbd>强制刷新一下网页，然后稍等一会儿
 - 也可以换浏览器重试，[chrome](https://www.google.cn/chrome/)，[firefox](https://www.mozilla.org/zh-CN/firefox/windows)，[edge](https://www.microsoft.com/zh-cn/edge)三选一，不要用国产浏览器
 
 6. 点击开通服务
