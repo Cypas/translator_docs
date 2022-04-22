@@ -43,7 +43,7 @@
 - 下载并安装[火绒](http://www.huorong.cn/person5.html)
 - 安装火绒后，会自动接管wd作为防火墙软件，误杀率比wd要低得多，同样也不会造成翻译器文件被误杀 
 
-### 安装包无法打开
+### 安装包打不开
 - 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzA1L0hFdnZnZTFTL0RhbmdvVHJhbnNsYXRvcl80LjIuMC56aXA/DangoTranslator_4.2.0.zip?sign=9cen-cDgda2c5U0orGnr8Fe3CZVcIfCXSQcTYWYnlo4%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
