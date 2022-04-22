@@ -46,6 +46,31 @@
 ### 安装包无法打开
 - 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzA1L0hFdnZnZTFTL0RhbmdvVHJhbnNsYXRvcl80LjIuMC56aXA/DangoTranslator_4.2.0.zip?sign=9cen-cDgda2c5U0orGnr8Fe3CZVcIfCXSQcTYWYnlo4%3D%3A0)解压到非中文且非空路径后运行
 
+### 软件未正确卸载导致无法重新安装
+- 例如:软件安装在移动硬盘，移动硬盘拔掉后无法重新进行安装，也无法卸载
+- 例如:直接将文件夹删掉，而不是通过windows设置内的`应用和功能`进行卸载
+
+- 以上都属于有意/无意`未正确卸载而导致的无法重新安装`
+  - (正确卸载方式为`windows设置`-`应用`，搜索或选中希望卸载的应用后，点击应用会出现卸载按钮，再点击`卸载按钮`，并根据提示点击`确认`按钮进行卸载)
+
+#### 解决方法
+1. 下载软件卸载软件geek,该软件[官网地址](https://geekuninstaller.com/download)可能需要代理才能访问，也可通过[备用地址](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzIyLzdxMk1aRDNSL2dlZWsuZXhl/geek.exe?sign=H7zsBaYqmtV1L_tInftpLi62nULTsg4eTF7q373LLuQ%3D%3A0)进行下载
+2. 在geek内搜索`团子翻译器`，点击卸载
+3. 会提示卸载失败，您要清理XXXX，点击`是`
+
+![确认1](../assets/img/5510.webp ':size=30%')
+
+4. 再次确认，点击`是`
+
+![确认2](../assets/img/5511.webp ':size=30%')
+
+5. 点击`完成`，会清理残留文件
+
+![确认2](../assets/img/5512.webp ':size=30%')
+
+6. 关闭geek，重新打开团子翻译器安装包，即可重新开始安装
+
+
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先关闭杀毒软件后再进行安装
 
