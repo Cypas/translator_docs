@@ -46,6 +46,10 @@
 ### 安装包无法打开
 - 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzA1L0hFdnZnZTFTL0RhbmdvVHJhbnNsYXRvcl80LjIuMC56aXA/DangoTranslator_4.2.0.zip?sign=9cen-cDgda2c5U0orGnr8Fe3CZVcIfCXSQcTYWYnlo4%3D%3A0)解压到非中文且非空路径后运行
 
+### [winError 2] 系统找不到指定的文件
+- 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先关闭杀毒软件后再进行安装
+  
+
 ### 软件未正确卸载导致无法重新安装
 - 例如:软件安装在移动硬盘，移动硬盘拔掉后无法重新进行安装，也无法卸载
 - 例如:直接将文件夹删掉，而不是通过windows设置内的`应用和功能`进行卸载
@@ -69,10 +73,6 @@
 ![确认2](../assets/img/5512.webp ':size=30%')
 
 6. 关闭geek，重新打开团子翻译器安装包，即可重新开始安装
-
-
-### [winError 2] 系统找不到指定的文件
-- 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先关闭杀毒软件后再进行安装
 
  # **本地ocr相关问题**
 ## 本地ocr相关问题
