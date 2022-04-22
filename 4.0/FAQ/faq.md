@@ -44,7 +44,7 @@
 - 安装火绒后，会自动接管wd作为防火墙软件，误杀率比wd要低得多，同样也不会造成翻译器文件被误杀 
 
 ### 安装包打不开
-- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzA1L0hFdnZnZTFTL0RhbmdvVHJhbnNsYXRvcl80LjIuMC56aXA/DangoTranslator_4.2.0.zip?sign=9cen-cDgda2c5U0orGnr8Fe3CZVcIfCXSQcTYWYnlo4%3D%3A0)解压到非中文且非空路径后运行
+- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzIyL1d4aGhzbkFOL0RhbmdvVHJhbnNsYXRvcl80LjIuMi56aXA/DangoTranslator_4.2.2.zip?sign=fJki0QsUJ2YTMaV4G3-4VzD0hjJzPEK73KQ8xBifspw%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先关闭杀毒软件后再进行安装
