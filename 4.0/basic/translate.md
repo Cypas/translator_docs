@@ -52,10 +52,11 @@
 ![立即使用](../assets/img/35.webp ':size=50%')
 
 9.  勾选协议，点击`免费试用`，如之前未进行实名认证的在这完成实名也行
+- 如果没有`免费试用`按钮，点`开通付费版`按钮也是一样的，同样会有500w字符/月免费额度，用完后因为没钱也不会扣你钱
     
 ![免费试用](../assets/img/36.webp ':size=50%')   
 
-10. 出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
+10.  出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
 
 ![概况](../assets/img/37.webp ':size=50%') 
 
