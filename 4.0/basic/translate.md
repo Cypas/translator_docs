@@ -55,7 +55,7 @@
 
 ![开通付费版](../assets/img/5550.webp ':size=50%')
 
-1.  出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
+10.  出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
 
 ![概况](../assets/img/37.webp ':size=50%')
 
