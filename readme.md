@@ -5,7 +5,11 @@
 - 官网地址:https://translator.dango.cloud
 - 搭载3种ocr识别(本地和两种在线ocr)，满足不同条件下的使用
 - 9种翻译源的选择
-- 账号系统，能够自动云端保存配置
+- 账号系统，能够自动云端保存配置  
+
+## 使用指南
+![快速使用指南](/user_manual.md)
+详细文档：https://docs2.ayano.top/#/4.0/basic/start
 
 ## 软件页面截图
 ### 登录页面
