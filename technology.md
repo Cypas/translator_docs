@@ -1,8 +1,9 @@
 ## 项目说明
 - 项目于`2020年2月`立项，至今已维护`两年多`，发布十多个大版本，github star数量`3.8k`，用户规模`6w+`
 
-- 项目代码已在[github](https://github.com/PantsuDango/Dango-Translator)开源，主要宣传渠道为[b站](https://space.bilibili.com/227927)
-
+- 翻译器代码已在[github](https://github.com/PantsuDango/Dango-Translator)开源，主要宣传渠道为[b站](https://space.bilibili.com/227927)
+- 翻译器文档开源地址=>[github](https://github.com/Cypas/translator_docs)
+- 有空可以给上面两个项目都点下`star`,谢谢啦
 ## 特别鸣谢
 
 [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  本地ocr基于此框架搭建

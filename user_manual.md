@@ -1,36 +1,36 @@
 # 团子翻译器使用指南
 
-（v4.2.7）
+（基于v4.2.7版本）
 
 ## 安装
 
 官网地址：https://translator.dango.cloud/
 
-<img src="image/image-20220712001638544.png" alt="image-20220712001638544" style="zoom: 33%;" />
+<img src="assets/image/image-20220712001638544.png" alt="image-20220712001638544" style="zoom: 33%;" />
 
 点击下载最新版本下载软件。
 
 下载后得到exe文件：
 
-<img src="image/image-20220712001722852.png" alt="image-20220712001722852" style="zoom:50%;" />
+<img src="assets/image/image-20220712001722852.png" alt="image-20220712001722852" style="zoom:50%;" />
 
 安装软件：
 
 运行-》安装-》确认位置-》安装即可
 
-<img src="image/image-20220712002052833.png" alt="image-20220712002052833" style="zoom:50%;" />
+<img src="assets/image/image-20220712002052833.png" alt="image-20220712002052833" style="zoom:50%;" />
 
 ## 运行
 
 点击运行即可。
 
-<img src="image/image-20220712002227546.png" alt="image-20220712002227546" style="zoom:50%;" />
+<img src="assets/image/image-20220712002227546.png" alt="image-20220712002227546" style="zoom:50%;" />
 
 ## 注册
 
 点击注册按钮，填写信息。当邮箱验证码填写完成即可注册成功。
 
-<img src="image/image-20220712002341236.png" alt="image-20220712002341236" style="zoom:50%;" />
+<img src="assets/image/image-20220712002341236.png" alt="image-20220712002341236" style="zoom:50%;" />
 
 ## 登录
 
@@ -40,7 +40,7 @@
 
 点击自动按钮即可，第一次可能需要比较长的时间请耐心等待！
 
-![image-20220712010456945](image/image-20220712010456945.png)
+![image-20220712010456945](assets/image/image-20220712010456945.png)
 
 ## 手动设置
 
@@ -48,21 +48,21 @@
 
 经过踩坑以后小编发现手动需要先对ocr进行设置
 
-![image-20220712003312612](image/image-20220712003312612.png)
+![image-20220712003312612](assets/image/image-20220712003312612.png)
 
 首先点击框框设置按钮！
 
 进入本体：
 
-<img src="image/image-20220712003347771.png" alt="image-20220712003347771" style="zoom:50%;" />
+<img src="assets/image/image-20220712003347771.png" alt="image-20220712003347771" style="zoom:50%;" />
 
 进行ocr设置点击开启即可。
 
-<img src="image/image-20220712004348210.png" alt="image-20220712004348210" style="zoom:50%;" />
+<img src="assets/image/image-20220712004348210.png" alt="image-20220712004348210" style="zoom:50%;" />
 
 点击后会出现一团黑色的东东，不要着急也不要害怕，只要稍等片刻即可。
 
-<img src="image/image-20220712004623221.png" alt="image-20220712004623221" style="zoom:50%;" />
+<img src="assets/image/image-20220712004623221.png" alt="image-20220712004623221" style="zoom:50%;" />
 
 待到出现下列数据就可以点击测试：
 
@@ -73,15 +73,15 @@
  * Running on http://192.168.0.116:6666/ (Press CTRL+C to quit)
 ```
 
-![image-20220712004818809](image/image-20220712004818809.png)
+![image-20220712004818809](assets/image/image-20220712004818809.png)
 
 *   点击测试
 
-![image-20220712005020694](image/image-20220712005020694.png)
+![image-20220712005020694](assets/image/image-20220712005020694.png)
 
 出现测试成功即可
 
-![image-20220712005132640](image/image-20220712005132640.png)
+![image-20220712005132640](assets/image/image-20220712005132640.png)
 
 `在线使用`需要稍微氪金，点击教程进行查看即可。
 
@@ -93,11 +93,11 @@
 
 通过下拉框对语言进行设置：
 
-![image-20220712003745622](image/image-20220712003745622.png)
+![image-20220712003745622](assets/image/image-20220712003745622.png)
 
 目前支持3种主流语言：
 
-![image-20220712003804194](image/image-20220712003804194.png)
+![image-20220712003804194](assets/image/image-20220712003804194.png)
 
 ### 翻译设置
 
@@ -105,7 +105,7 @@
 
 私有翻译需要查看教程进行设置（ps：个人推荐公有即可）
 
-<img src="image/image-20220712003924048.png" alt="image-20220712003924048" style="zoom:50%;" />
+<img src="assets/image/image-20220712003924048.png" alt="image-20220712003924048" style="zoom:50%;" />
 
 
 
@@ -113,11 +113,11 @@
 
 点击框框中的内容，对需要翻译的位置进行选择。
 
-![image-20220712011031584](image/image-20220712011031584.png)
+![image-20220712011031584](assets/image/image-20220712011031584.png)
 
 选择后点击运行按钮，即可
 
-![image-20220712011306174](image/image-20220712011306174.png)
+![image-20220712011306174](assets/image/image-20220712011306174.png)
 
 ## 其他功能
 
@@ -127,17 +127,17 @@
 
 还有翻译时间、颜色、隐藏范围等都进行了贴心设置。
 
-<img src="image/image-20220712011503656.png" alt="image-20220712011503656" style="zoom:50%;" />
+<img src="assets/image/image-20220712011503656.png" alt="image-20220712011503656" style="zoom:50%;" />
 
 ### 功能设定
 
-<img src="image/image-20220712011858186.png" alt="image-20220712011858186" style="zoom:50%;" />
+<img src="assets/image/image-20220712011858186.png" alt="image-20220712011858186" style="zoom:50%;" />
 
 ### 关于和支持作者
 
-<img src="image/image-20220712141604585.png" alt="image-20220712141604585" style="zoom:50%;" />
+<img src="assets/image/image-20220712141604585.png" alt="image-20220712141604585" style="zoom:50%;" />
 
-<img src="image/image-20220712141619704.png" alt="image-20220712141619704" style="zoom:50%;" />
+<img src="assets/image/image-20220712141619704.png" alt="image-20220712141619704" style="zoom:50%;" />
 
 ## 特殊情况
 
@@ -145,7 +145,7 @@
 
 如下图情况：
 
-![image-20220712003300107](image/image-20220712003300107.png)
+![image-20220712003300107](assets/image/image-20220712003300107.png)
 
 解决方案：
 
@@ -161,23 +161,23 @@
 
 具体情况如下图：
 
-![image-20220712142213064](image/image-20220712142213064.png)
+![image-20220712142213064](assets/image/image-20220712142213064.png)
 
 原因说明：
 
-有可能是吧cmd窗口意外关闭导致。
+有可能是将cmd窗口意外关闭导致。
 
-<img src="image/image-20220712142148510.png" alt="image-20220712142148510" style="zoom:50%;" />
+<img src="assets/image/image-20220712142148510.png" alt="image-20220712142148510" style="zoom:50%;" />
 
 处理方法：
 
 1、打开设置，手动打开本地OCR点击使用，然后稍等片刻即可
 
-![image-20220712142353184](image/image-20220712142353184.png)
+![image-20220712142353184](assets/image/image-20220712142353184.png)
 
 2、重启软件即可
 
 ## 详细文档：
 
-参考地址：https://docs2.ayano.top/#/4.0/basic/start
+参考地址：https://docs1.ayano.top/#/4.0/basic/start
 
