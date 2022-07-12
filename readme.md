@@ -10,7 +10,7 @@
 ## 使用指南
 [非官方快速使用指南](/user_manual.md)(由[三岁](https://github.com/jhcgt4869)提供)
 
-官方在线文档：https://docs1.ayano.top/#/4.0/basic/start
+[官方在线文档](https://docs1.ayano.top/#/4.0/basic/start)
 
 ## 软件页面截图
 ### 登录页面
