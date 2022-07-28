@@ -33,13 +33,15 @@
 ![配置ocr源](../assets/img/105.webp ':size=50%')
 
 ### 配置源语种
+![配置源语种](../assets/img2/116.png ':size=50%')
+
 - 源语种即为游戏内字幕显示的文字类型，只支持单种字幕，多种语言混合字幕无法翻译
 - 默认源语种为`日文`，如果游戏是英文字幕，需要在此进行修改
 
 ## 3.翻译设定
 ### 配置翻译源
 - 软件提供了6种公共翻译和3种私人翻译
-- 公共翻译器需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种，才可以正常使用，不过公共翻译非常容易抽风
+- 公共翻译器需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)，才可以正常使用，不过公共翻译非常容易抽风
 - 私人翻译需要自己去注册相关翻译接口，无需安装上述浏览器，且稳定性非常高
 - `建议多花一点时间去注册至少一个私人翻译接口，体验会好很多`
 - 翻译源具体配置查看[翻译源教程](/4.0/basic/translate)

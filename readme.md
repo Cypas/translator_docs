@@ -1,11 +1,19 @@
-## 简介
+## 关于仓库
+这里是[团子翻译器](https://github.com/PantsuDango/Dango-Translator)的文档仓库，方便架设GithubPage供海外用户浏览
+
+## 团子翻译器简介
 
 团子翻译器是一款屏幕识别`实时翻译软件`，通过OCR识别屏幕特定范围内的文字，然后将识别到的文字调取各大厂的翻译，并输出翻译结果。
 
 - 官网地址:https://translator.dango.cloud
 - 搭载3种ocr识别(本地和两种在线ocr)，满足不同条件下的使用
 - 9种翻译源的选择
-- 账号系统，能够自动云端保存配置
+- 账号系统，能够自动云端保存配置  
+
+## 使用指南
+[非官方快速使用指南](/user_manual.md)(由[三岁](https://github.com/jhcgt4869)提供)
+
+[官方在线文档](https://docs1.ayano.top/#/4.0/basic/start)
 
 ## 软件页面截图
 ### 登录页面
