@@ -73,11 +73,44 @@
  # **本地ocr相关问题**
 ## 本地ocr相关问题
 - 本地ocr对系统硬件与环境的要求都较高，推荐系统(win7 64位，win10 64位)
+- 另外可尝试[替换本地ocr](/4.0/FAQ/faq#替换本地ocr)
 - 如果您不想折腾，可以试试我们的[在线ocr](/4.0/basic/ocr#在线ocr介绍)，对系统环境没有要求，仅依赖网络，识别精确度也比本地ocr高，费用为`20元/月`
 - 实在希望解决的情况下，可以加我们的[疑难解答群](https://jq.qq.com/?_wv=1027&k=ij5CjMkm)
 
-### [Errno 22] Invalid argument
+### Errno22错误
+- 完整报错信息
+
+```
+[Errno 22] Invalid argument
+```
+#### 解决方法
 - 您的电脑环境不支持使用本地ocr，请更换其他在线ocr
+
+### gbk解码错误
+- 完整报错信息
+
+```
+File "D:\Programs\DangoTranslator\app\ocr\Python\lib\site-packages\qpt\kernel\tools\terminal.py", line 67, in handle
+    msg = line.decode('gbk').strip("b'").strip("\n").strip(SHELL_ACT)
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal multibyte sequence
+```
+
+#### 解决方法
+- 请按照下图流程更改windows设置，单击图片可放大
+
+![1](../assets/img/121.webp ':size=30%')
+
+![2](../assets/img/122.webp ':size=50%')
+
+![3](../assets/img/123.webp ':size=50%')
+
+![4](../assets/img/124.webp ':size=50%')
+
+![5](../assets/img/125.webp ':size=50%')
+
+![6](../assets/img/126.webp ':size=50%')
+
+- 完成设置后，再重新打开本地ocr
 
 ### 本地ocr所使用的端口可能被占用
 - 首先重启电脑后试试能不能用，仍显示端口被占用再使用下列方法
@@ -98,18 +131,27 @@
 7. 如果是显示为其他应用，接着在cmd窗口输入`taskkill /f /t /im 3488`，后面的3488同样是根据前面获得的进程id跟着改变
 8. 打开本地ocr重试
 
+### 替换本地ocr
+- 正常用户不需要进行此替换，部分用户本地ocr无法运行，且文档内也没提供相关解决方法时，可替换本地ocr文件后重试
+1. 下载[本地ocr替换文件](https://drive.c4a15wh.cn/s/O5t8)
+2. 关闭翻译器以及本地ocr，将刚才下载的ocr文件解压缩
+3. 用解压后的ocr文件夹替换原安装路径下的ocr文件夹
+
+![替换文件夹](../assets/img/127.webp ':size=50%')
+
+4. 打开翻译器后再次启动本地ocr
+
  # **在线ocr相关问题**
 ## 在线ocr相关问题
 - 在线ocr指代我们团队运营的在线ocr(星河ocr)
 
-- 在线ocr仍在`发展过程中`，部分字符的识别情况不佳，部分省份的网络访问不佳等情况，都有待进一步优化，有什么体验觉得不好的地方欢迎联系[用户群](https://jq.qq.com/?_wv=1027&k=O6FNPMwS)内客服娘
+- 在线ocr仍在`发展过程中`，部分字符的识别情况不佳，部分省份的网络访问不佳等情况，都有待进一步优化，有什么体验觉得不好的地方欢迎联系[用户群](https://jq.qq.com/?_wv=1027&k=uBps8gZg)内客服娘
 
 - 如果`偶尔`出现在线ocr未知错误的情况，属于`正常`现象，可能是`本地网络不稳定`
 
 - 现在在线ocr服务对象`主要是大陆`用户，如果是`国外/海外`用户，可能延迟会非常高，如仍需使用，请自备`回国梯子`
 
-- 如果`连续出现多次在线ocr未知错误`，请先尝试`更换在线ocr服务节点`，如仍无法正常使用请联系[用户群](https://jq.qq.com/?_wv=1027&k=O6FNPMwS)内客服娘
-
+- 如果`连续出现多次在线ocr未知错误`，请先尝试`更换在线ocr服务节点`，如仍无法正常使用请联系[用户群](https://jq.qq.com/?_wv=1027&k=uBps8gZg)内客服娘
 
 
 <!-- tabs:end -->
