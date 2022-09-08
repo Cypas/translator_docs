@@ -10,9 +10,6 @@
 
  # **翻译器相关问题**
 ## 翻译器相关问题
-
-![查看应用详情](../assets/img/116.webp ':size=50%')
-
 ### 公共翻译抽风/启动失败
 - 请先下载安装一个最新版[chrome浏览器](https://www.google.cn/chrome/)，随后重启翻译器
 
@@ -35,7 +32,7 @@
 ## 安装过程相关问题
 
  ### 防止软件被误杀
-- 管家软件，安全卫士等软件添加杀毒白名单
+- 在管家软件，安全卫士等软件内将团子翻译器安装路径(默认安装路径是`D:\Programs\DangoTranslator`)添加到杀毒白名单
 - 若电脑未安装任何管家或安全卫士，可以参考以下教程添加wd白名单，单击图片可放大
 1. ![1](../assets/img/128.webp ':size=30%')
 2. ![2](../assets/img/129.webp ':size=30%')
@@ -49,7 +46,7 @@
 - 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA3LzEwL2lISkg0VkNXL0RhbmdvVHJhbnNsYXRvcl80LjIuNi4xLnppcA/DangoTranslator_4.2.6.1.zip?sign=tj9pRoZJncd-snhgTI_MonJ_k2wMq38wQjrY-0tN0ec%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
-- 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先关闭杀毒软件后再进行安装
+- 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先将软件安装路径添加到管家软件，安全卫士，wd等安全软件白名单后，再进行安装，详细参考[防止软件被误杀](/4.0/FAQ/faq#防止软件被误杀)
   
 
 ### 软件未正确卸载导致无法重新安装
