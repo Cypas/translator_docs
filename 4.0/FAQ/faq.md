@@ -14,9 +14,9 @@
 ![查看应用详情](../assets/img/116.webp ':size=50%')
 
 ### 公共翻译抽风/启动失败
-- 最简单的办法，去下载安装一个最新版[chrome浏览器](https://www.google.cn/chrome/)，随后重启翻译器
+- 请先下载安装一个最新版[chrome浏览器](https://www.google.cn/chrome/)，随后重启翻译器
 
-- 如果安装完成后，公共翻译仍抽风/启动失败，建议去注册一个私人翻译源就行了(推荐腾讯翻译)，参考[私人翻译源教程](/4.0/basic/translate#公共翻译与私人翻译的区别)
+- 如果安装完成后，公共翻译仍抽风/启动失败，建议去注册一个私人翻译源(推荐腾讯翻译)，参考[私人翻译源教程](/4.0/basic/translate#公共翻译与私人翻译的区别)
 
 ### 邮箱地址不合法
 
@@ -34,10 +34,16 @@
  # **安装过程相关问题**
 ## 安装过程相关问题
 
- ### 关闭wd的方法
-- 真正去关闭wd(Windows Defender,即win电脑自带杀毒)是需要修改注册表的，但自行修改可能会出现问题，以下推荐更简单的方法
-- 下载并安装[火绒](http://www.huorong.cn/person5.html)
-- 安装火绒后，会自动接管wd作为防火墙软件，误杀率比wd要低得多，同样也不会造成翻译器文件被误杀 
+ ### 防止软件被误杀
+- 管家软件，安全卫士等软件添加杀毒白名单
+- 若电脑未安装任何管家或安全卫士，可以参考以下教程添加wd白名单，单击图片可放大
+1. ![1](../assets/img/128.webp ':size=30%')
+2. ![2](../assets/img/129.webp ':size=30%')
+3. ![3](../assets/img/130.webp ':size=30%')
+4. ![4](../assets/img/131.webp ':size=30%')
+5. ![5](../assets/img/132.webp ':size=30%')
+6. ![6](../assets/img/133.webp ':size=30%')
+7. 选择文件夹，将团子翻译器安装路径添加进去即可，翻译器默认安装路径是`D:\Programs\DangoTranslator`
 
 ### 安装包打不开
 - 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA3LzEwL2lISkg0VkNXL0RhbmdvVHJhbnNsYXRvcl80LjIuNi4xLnppcA/DangoTranslator_4.2.6.1.zip?sign=tj9pRoZJncd-snhgTI_MonJ_k2wMq38wQjrY-0tN0ec%3D%3A0)解压到非中文且非空路径后运行
@@ -98,19 +104,19 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 #### 解决方法
 - 请按照下图流程更改windows设置，单击图片可放大
 
-![1](../assets/img/121.webp ':size=30%')
+1. ![1](../assets/img/121.webp ':size=30%')
 
-![2](../assets/img/122.webp ':size=50%')
+2. ![2](../assets/img/122.webp ':size=50%')
 
-![3](../assets/img/123.webp ':size=50%')
+3. ![3](../assets/img/123.webp ':size=50%')
 
-![4](../assets/img/124.webp ':size=50%')
+4. ![4](../assets/img/124.webp ':size=50%')
 
-![5](../assets/img/125.webp ':size=50%')
+5. ![5](../assets/img/125.webp ':size=50%')
 
-![6](../assets/img/126.webp ':size=50%')
+6. ![6](../assets/img/126.webp ':size=50%')
 
-- 完成设置后，再重新打开本地ocr
+7. 完成设置后，再重新打开本地ocr
 
 ### 本地ocr所使用的端口可能被占用
 - 首先重启电脑后试试能不能用，仍显示端口被占用再使用下列方法
