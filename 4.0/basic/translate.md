@@ -21,62 +21,62 @@
 ## 腾讯翻译接口
 !>如果注册后有腾讯的工作人员给你打电话，就说自己`用于学习外语使用`，或是直接挂断电话也可以,客服打你电话是以为你是有钱的大客户，于是来推销服务~~尽管并不是~~，总之不要在意就行
 
-- 腾讯翻译免费额度为`500w字符/月`，`额度用完后可能产生欠费账单`，请留意翻译使用量，接近500w时更换其他翻译接口即可
+- 腾讯翻译免费额度为`500w字符/月`，`额度用完后也不会扣费`，只是无法继续使用翻译，用完时再换个接口即可
 
 - [点击查看腾讯翻译使用量](https://console.cloud.tencent.com/tmt),如果提示登录，请先登录后重新点击此地址查看，筛选`近30天`使用量，没有超过500w就没事
 
 1. [点我打开腾讯翻译注册网站](https://cloud.tencent.com/product/tmt)
 2. 右上角完成账号注册或登录
 
-![登录注册](../assets/img/26.webp ':size=50%')
+    - ![登录注册](../assets/img/26.webp ':size=50%')
 
 3. 注册完成后点击`去实名认证`
 
-![立刻使用](../assets/img/27.webp ':size=50%')
+   - ![立刻使用](../assets/img/27.webp ':size=50%')
 
 4. 这里选择`开始个人认证`（在其他页面完成了个人认证也行）
 
-![开始个人认证](../assets/img/31.webp ':size=50%')
+    - ![开始个人认证](../assets/img/31.webp ':size=50%')
 
 5. 姓名和身份证要真实，地址无所谓
 
-![个人信息](../assets/img/32.webp ':size=50%')
+    - ![个人信息](../assets/img/32.webp ':size=50%')
 
 6. 微信扫码完成认证（用别的认证方法也行）
 
-![微信认证](../assets/img/33.webp ':size=50%')
-![完成认证](../assets/img/34.webp ':size=50%')
+   - ![微信认证](../assets/img/33.webp ':size=50%')
+   - ![完成认证](../assets/img/34.webp ':size=50%')
 
 7. 完成个人认证后再打开[这个网址](https://cloud.tencent.com/product/tmt)
    
 8. 点击`立即使用`
-   
-![立即使用](../assets/img/35.webp ':size=50%')
+
+    - ![立即使用](../assets/img/35.webp ':size=50%')
 
 9. 勾选协议，点击`开通付费版`，同样会有500w字符/月免费额度，用完后因为没钱也不会扣你钱，如之前未进行实名认证的在这完成实名也行
 
-![开通付费版](../assets/img/5550.webp ':size=50%')
+    - ![开通付费版](../assets/img/5550.webp ':size=50%')
 
 10.  出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
 
-![概况](../assets/img/37.webp ':size=50%')
+    - ![概况](../assets/img/37.webp ':size=50%')
 
 11. 点击下面的新建密钥 
 
-![新建密钥](../assets/img/38.webp ':size=50%')
+    - ![新建密钥](../assets/img/38.webp ':size=50%')
 
 12. 弹出的这个高风险提示不用管，`勾选不再提示`，然后`继续使用`
 
-![高风险提示](../assets/img/39.webp ':size=50%')
+    - ![高风险提示](../assets/img/39.webp ':size=50%')
 
 13. 这里的`两行字符`就是我们需要的密钥，第二行点一下`显示`，并`扫码完成验证`后便会显示出来
 - 注意:复制密钥时，`不需要`复制前面的`SecretId:`或`SecretKey:`部分，只复制后面密钥部分即可
 
-![概况](../assets/img/40.webp ':size=50%')
+    - ![概况](../assets/img/40.webp ':size=50%')
 
 14. 将得到的两个密钥复制粘贴到团子翻译器内`翻译设定-腾讯 密钥`的地方，并打开腾讯翻译的开关
 
-![输入密钥](../assets/img/113.webp ':size=50%')
+    - ![输入密钥](../assets/img/143.webp ':size=50%')
 
 ?>[点此返回翻译器教程](/4.0/basic/dangotranslator#配置翻译源)
 
@@ -91,19 +91,19 @@
 1. [点我打开百度翻译注册网站](https://fanyi-api.baidu.com/product/11)
 2. 完成登录后点击这个立刻使用
 
-![立刻使用](../assets/img/11.webp ':size=50%')
+    - ![立刻使用](../assets/img/11.webp ':size=50%')
 
 3. 然后选择个人开发者，并填写自己相关信息
 
-![个人开发者](../assets/img/12.webp ':size=50%')
+    - ![个人开发者](../assets/img/12.webp ':size=50%')
 
 4. 点击确定
 
-![进入认证](../assets/img/13.webp ':size=50%')
+    - ![进入认证](../assets/img/13.webp ':size=50%')
 
 5. 选择`高级版`，并到下面填写自己个人信息，点击立刻实名
 
-![立刻实名](../assets/img/14.webp ':size=50%')
+    - ![立刻实名](../assets/img/14.webp ':size=50%')
 
 如果你碰到此处`没有填写姓名和身份证的地方`，可采用如下解决办法
 - 按<kbd>Ctrl</kbd>+<kbd>F5</kbd>强制刷新一下网页，然后稍等一会儿
@@ -111,36 +111,36 @@
 
 6. 点击开通服务
 
-![开通服务](../assets/img/15.webp ':size=50%')
+    - ![开通服务](../assets/img/15.webp ':size=50%')
 
 7. 选择通用翻译
 
-![通用翻译](../assets/img/16.webp ':size=50%')
+    - ![通用翻译](../assets/img/16.webp ':size=50%')
 
 8. 开通高级版
 
-![开通高级版](../assets/img/17.webp ':size=50%')
+    - ![开通高级版](../assets/img/17.webp ':size=50%')
 
 9. 下一步
 
-![下一步](../assets/img/18.webp ':size=50%')
+    - ![下一步](../assets/img/18.webp ':size=50%')
 
 10. 应用名称随便填，例如填写`翻译器`
     然后别的东西都不用填，`提交申请`就行了，这个没人工审核，会直接通过的
 
-![提交申请](../assets/img/19.webp ':size=50%')
+    - ![提交申请](../assets/img/19.webp ':size=50%')
 
 11. 服务开通后点击`总览`
 
-![点击总览](../assets/img/20.webp ':size=50%')
+    - ![点击总览](../assets/img/20.webp ':size=50%')
 
 12.  页面滑到最下面，有个申请信息，里面是`appid和密钥`
 
-![申请信息](../assets/img/21.webp ':size=50%')
+    - ![申请信息](../assets/img/21.webp ':size=50%')
 
 13.  将得到的appid和密钥复制粘贴到团子翻译器内`翻译设定-百度 密钥`的地方，并打开百度翻译的开关
 
-![输入密钥](../assets/img/114.webp ':size=50%')
+    - ![输入密钥](../assets/img/144.webp ':size=50%')
 
 ?>[点此返回翻译器教程](/4.0/basic/dangotranslator#配置翻译源)
 
@@ -155,24 +155,24 @@
 1. [点我打开彩云翻译注册网站](https://dashboard.caiyunapp.com/user/sign_in/)
 2. 注册并登陆账号，用qq邮箱注册也行，注册时需要你先点那个绿色的`使用条款`，进入条款页面确认后，`才能勾选`我已阅读条款，接着到自己邮箱完成账号认证，即可登陆账号
 
-![邮箱认证](../assets/img/23.webp ':size=50%')
+    - ![邮箱认证](../assets/img/23.webp ':size=50%')
 
 3. 登陆后填写自己个人信息申请个人开发者，然后下一步
 
-![申请开发者](../assets/img/24.webp ':size=50%')
+    - ![申请开发者](../assets/img/24.webp ':size=50%')
 
 4. 选择`彩云小译API`，应用名字填写`翻译小程序`，应用链接填写`暂无链接`，应用开发情况填写`个人毕业设计，代码仍在开发中`，彩云相较百度来说审核严格很多，理由要合理一些，不能乱填，最后点击`提交`
 
-![申请开发者2](../assets/img/25.webp ':size=50%')
+    - ![申请开发者2](../assets/img/25.webp ':size=50%')
 
 5. 一般情况下申请都会秒通过，会通过邮箱发给你审核结果，通过审核后再来这个页面，点击左侧的`令牌列表`，再点击`查看`
 
-![查看令牌](../assets/img/28.webp ':size=50%')
-![查看令牌2](../assets/img/29.webp ':size=50%')
+    - ![查看令牌](../assets/img/28.webp ':size=50%')
+   - ![查看令牌2](../assets/img/29.webp ':size=50%')
 
 6. 将彩云的这个`令牌代码`复制粘贴到团子翻译器内`翻译设定-彩云 密钥`的地方，并打开彩云翻译的开关
 
-![输入令牌](../assets/img/115.webp ':size=50%')
+    - ![输入令牌](../assets/img/145.webp ':size=50%')
 
 ?>[点此返回翻译器教程](/4.0/basic/dangotranslator#配置翻译源)
 
