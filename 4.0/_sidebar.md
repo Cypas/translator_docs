@@ -14,6 +14,6 @@
 🐛 开发相关
 - [开发计划](/4.0/develop/plan)
 - [更新日志](/4.0/develop/changelog)
-- [项目说明](/4.0/technology)
+- [项目说明](/4.0/develop/technology)
 - [加入我们](/4.0/develop/joinus)
 
