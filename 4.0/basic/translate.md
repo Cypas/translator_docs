@@ -4,10 +4,10 @@
 
 ### 公共翻译优劣
 - 优势:无需注册相关翻译平台账号，打开对应开关即可使用
-- 劣势:需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)
+- 劣势:需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种
 - 劣势:非常容易抽风
 - 劣势:deepl翻译经常性出现一些奇怪的翻译，不太建议使用
-- 劣势:有一定兼容性问题，如果电脑装有[chrome](https://www.google.cn/chrome/index.html)，启动时仍是显示公共翻译启动失败-->查看[公共翻译启动失败](/4.0/FAQ/faq#公共翻译启动失败)
+- 劣势:有一定兼容性问题，如果电脑装有[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种，启动时仍是显示公共翻译启动失败-->查看[公共翻译启动失败](/4.0/FAQ/faq#公共翻译启动失败)
 
 ### 私人翻译优劣
 - 优势:稳定性非常强

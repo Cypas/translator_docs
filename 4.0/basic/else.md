@@ -73,7 +73,7 @@
 - 可将ocr识别到的原文内容，通过腾讯翻译的语音合成接口进行语音播放
 
 ### 使用方式
-!> 使用前需完成至少一种[ocr设置](/4.0/basic/ocr)与至少一种[翻译设置](/4.0/basic/translate)，同时此功能需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)，才可以正常使用
+!> 使用前需完成至少一种[ocr设置](/4.0/basic/ocr)与至少一种[翻译设置](/4.0/basic/translate)，同时此功能需要电脑安装有[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种，才可以正常使用
 
 1. 在进行一次翻译后，点击翻译器翻译显示区域上方控件区的`朗读原文`按钮，即可播放`ocr识别到的原文`所合成的语音
     - ![合成语音](../assets/img/148.webp ':size=50%')

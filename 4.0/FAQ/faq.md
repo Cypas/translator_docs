@@ -11,7 +11,7 @@
  # **翻译器相关问题**
 ## 翻译器相关问题
 ### 公共翻译抽风/启动失败
-- 请先下载安装一个最新版[chrome浏览器](https://www.google.cn/chrome/)，随后重启翻译器
+- 请先下载安装一个最新版[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种，随后重启翻译器
 
 - 如果安装完成后，公共翻译仍抽风/启动失败，建议去注册一个私人翻译源(推荐腾讯翻译)，参考[私人翻译源教程](/4.0/basic/translate#公共翻译与私人翻译的区别)
 
@@ -43,7 +43,7 @@
 7. 选择文件夹，将团子翻译器安装路径添加进去即可，翻译器默认安装路径是`D:\Programs\DangoTranslator`
 
 ### 安装包打不开
-- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzEwLzMwL1U3OFV1STFWX0RhbmdvVHJhbnNsYXRvcl80LjMuNS56aXA/DangoTranslator_4.3.5.zip?sign=2WarMLg5I6pvxf8aTzPmMBQ3wjJ9gvUCY450YzubbII%3D%3A0)解压到非中文且非空路径后运行
+- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjIvMTIvMDMvTVkzQmxCNFNfRGFuZ29UcmFuc2xhdG9yXzQuMy43LnppcA/DangoTranslator_4.3.7.zip?sign=Rh8Wo9gmOzbnnqW8afIlD9EHRrZmdihZ7mS1w9XMBqA%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先将软件安装路径添加到管家软件，安全卫士，wd等安全软件白名单后，再进行安装，详细参考[防止软件被误杀](/4.0/FAQ/faq#防止软件被误杀)
