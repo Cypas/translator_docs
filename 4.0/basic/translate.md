@@ -47,7 +47,7 @@
    - ![微信认证](../assets/img/33.webp ':size=50%')
    - ![完成认证](../assets/img/34.webp ':size=50%')
 
-7. 完成个人认证后再打开[这个网址](https://cloud.tencent.com/product/tmt)
+7. 完成个人认证后再[点击此处开通机器翻译](https://cloud.tencent.com/product/tmt)
    
 8. 点击`立即使用`
 
@@ -57,7 +57,7 @@
 
     - ![开通付费版](../assets/img/5550.webp ':size=50%')
 
-10.  出现下面这个概况的页面后，再打开[这个网址](https://console.cloud.tencent.com/cam/capi)
+10.  出现下面这个概况的页面后，再[点击此处新建密钥](https://console.cloud.tencent.com/cam/capi)
 
     - ![概况](../assets/img/37.webp ':size=50%')
 
