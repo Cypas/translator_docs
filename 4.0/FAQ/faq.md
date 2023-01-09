@@ -43,7 +43,7 @@
 7. 选择文件夹，将团子翻译器安装路径添加进去即可，翻译器默认安装路径是`D:\Programs\DangoTranslator`
 
 ### 安装包打不开
-- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjIvMTIvMTIvQ2NpVmJJZ2RfRGFuZ29UcmFuc2xhdG9yXzQuMy45LnppcA/DangoTranslator_4.3.9.zip?sign=eMmTYUc8OM4yBBW-yypoimnlzNCAWNlkKPyHodK1C40%3D%3A0)解压到非中文且非空路径后运行
+- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjMvMDEvMDkvR3NzME5ORllfRGFuZ29UcmFuc2xhdG9yXzQuNC4wLnppcA/DangoTranslator_4.4.0.zip?sign=PO7nOj-bl_tarCBO7afeSKJyDvyu978wH01uVKqv06Y%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先将软件安装路径添加到管家软件，安全卫士，wd等安全软件白名单后，再进行安装，详细参考[防止软件被误杀](/4.0/FAQ/faq#防止软件被误杀)
