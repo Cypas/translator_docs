@@ -89,6 +89,17 @@
 #### 解决方法
 - 您的电脑环境不支持使用本地ocr，请更换其他在线ocr
 
+### check_hostname requires server_hostname
+- 完整报错信息
+
+```
+   raise ValueError("check_hostname requires server_hostname")
+ValueError: check_hostname requires server_hostname
+```
+#### 解决方法
+- 首次运行本地ocr时，不能开启代理，会导致部分环境文件下载失败
+- 请先关闭本地代理软件后，重新打开本地ocr
+
 ### gbk解码错误
 - 完整报错信息
 
