@@ -136,7 +136,7 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 
 ### 替换本地ocr
 - 正常用户不需要进行此替换，部分用户本地ocr无法运行，且文档内也没提供相关解决方法时，可替换本地ocr文件后重试
-1. 下载[本地ocr替换文件](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/L3Jvb3QvYmluL3VwbG9hZHMvMjAyMi8wNC8yMi9ZN0lnZnRyOS9vY3IzLjYuMi56aXA/ocr3.6.2.zip?sign=bPRSS67raooZIEhr7DsxS4AAQqgzZv64fLCfjoTx5OQ%3D%3A0)
+1. 下载[本地ocr替换文件](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yLzIwMjIvMTIvMjIvM1FET3JzdFJfb2NyMy42LjIrcnUuemlw/ocr3.6.2+ru.zip?sign=bQUQcI23zsN8lX5PD21mMBcqdsQvV4QAVD-WjKhbUrc%3D%3A0)
 2. 关闭翻译器以及本地ocr，将刚才下载的ocr文件解压缩
 3. 用解压后的ocr文件夹替换原安装路径下的ocr文件夹
 
