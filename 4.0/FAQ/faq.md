@@ -43,7 +43,7 @@
 7. 选择文件夹，将团子翻译器安装路径添加进去即可，翻译器默认安装路径是`D:\Programs\DangoTranslator`
 
 ### 安装包打不开
-- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjMvMDMvMTcvZmNRZEtSU3JfRGFuZ29UcmFuc2xhdG9yXzQuNC4wLnppcA/DangoTranslator_4.4.0.zip?sign=ZwuOZV5iwxwvboM7yZQQe6t4FPbcSvYe32LwahybLxw%3D%3A0)解压到非中文且非空路径后运行
+- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjMvMDMvMjcvVERlRE1yRkRfRGFuZ29UcmFuc2xhdG9yXzQuNC4yLnppcA/DangoTranslator_4.4.2.zip?sign=9G4ElPPiMjCvP66xYvZNQb5Idx1DDgdSBbdDOzNKlV4%3D%3A0)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先将软件安装路径添加到管家软件，安全卫士，wd等安全软件白名单后，再进行安装，详细参考[防止软件被误杀](/4.0/FAQ/faq#防止软件被误杀)
@@ -159,13 +159,13 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 ## 在线ocr相关问题
 - 在线ocr指代我们团队运营的在线ocr(星河ocr)
 
-- 在线ocr仍在`发展过程中`，部分字符的识别情况不佳，部分省份的网络访问不佳等情况，都有待进一步优化，有什么体验觉得不好的地方欢迎联系[用户群](https://jq.qq.com/?_wv=1027&k=r3pjf9nr)内客服娘
+- 在线ocr仍在`发展过程中`，部分字符的识别情况不佳，部分省份的网络访问不佳等情况，都有待进一步优化，有什么体验觉得不好的地方欢迎联系[用户群](https://jq.qq.com/?_wv=1027&k=h9LeHRKy)内客服娘
 
 - 如果`偶尔`出现在线ocr未知错误的情况，属于`正常`现象，可能是`本地网络不稳定`
 
 - 现在在线ocr服务对象`主要是大陆`用户，如果是`国外/海外`用户，可能延迟会非常高，如仍需使用，请自备`回国梯子`
 
-- 如果`连续出现多次在线ocr未知错误`，请先尝试`更换在线ocr服务节点`，如仍无法正常使用请联系[用户群](https://jq.qq.com/?_wv=1027&k=r3pjf9nr)内客服娘
+- 如果`连续出现多次在线ocr未知错误`，请先尝试`更换在线ocr服务节点`，如仍无法正常使用请联系[用户群](https://jq.qq.com/?_wv=1027&k=h9LeHRKy)内客服娘
 
 
 <!-- tabs:end -->
