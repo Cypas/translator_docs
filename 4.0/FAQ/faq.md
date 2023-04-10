@@ -10,6 +10,10 @@
 
  # **翻译器相关问题**
 ## 翻译器相关问题
+### 登录时闪退
+- 可以尝试前往[团子翻译器官网](https://translator.dango.cloud/)下载登录修复版本的安装包
+- ![修复版本安装包](../assets/img/174.webp ':size=70%')
+
 ### 公共翻译抽风/启动失败
 - 请先下载安装一个最新版[chrome](https://www.google.cn/chrome/index.html)/[firefox](https://www.mozilla.org/zh-CN/firefox/)/[edge](https://www.microsoft.com/zh-cn/edge)三种主流浏览器中至少一种，随后重启翻译器
 
