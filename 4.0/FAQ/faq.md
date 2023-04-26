@@ -47,7 +47,7 @@
 7. 选择文件夹，将团子翻译器安装路径添加进去即可，翻译器默认安装路径是`D:\Programs\DangoTranslator`
 
 ### 安装包打不开
-- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy80LzIwMjMvMDMvMjcvVERlRE1yRkRfRGFuZ29UcmFuc2xhdG9yXzQuNC4yLnppcA/DangoTranslator_4.4.2.zip?sign=9G4ElPPiMjCvP66xYvZNQb5Idx1DDgdSBbdDOzNKlV4%3D%3A0)解压到非中文且非空路径后运行
+- 如遇到计算机环境特殊导致安装包无法进行安装，可以下载[压缩包版](https://dango-static.eos-shanghai-2.cmecloud.cn/patches/dango_translator/DangoTranslator_4.4.4.zip)解压到非中文且非空路径后运行
 
 ### [winError 2] 系统找不到指定的文件
 - 这个提示信息代表安装过程中出现了文件丢失(一般是被杀毒软件干掉了)，请先将软件安装路径添加到管家软件，安全卫士，wd等安全软件白名单后，再进行安装，详细参考[防止软件被误杀](/4.0/FAQ/faq#防止软件被误杀)
@@ -61,7 +61,7 @@
   - (正确卸载方式为`windows设置`-`应用`，搜索或选中希望卸载的应用后，点击应用会出现卸载按钮，再点击`卸载按钮`，并根据提示点击`确认`按钮进行卸载)
 
 #### 解决方法
-1. 下载软件卸载软件geek,该软件[官网地址](https://geekuninstaller.com/download)可能需要代理才能访问，也可通过[备用地址](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yMDIyLzA0LzIyLzdxMk1aRDNSL2dlZWsuZXhl/geek.exe?sign=H7zsBaYqmtV1L_tInftpLi62nULTsg4eTF7q373LLuQ%3D%3A0)进行下载
+1. 下载软件卸载软件geek,该软件[官网地址](https://geekuninstaller.com/download)可能需要代理才能访问，也可通过[备用地址](https://dango-static.eos-shanghai-2.cmecloud.cn/resources/translator/geek.exe)进行下载
 2. 在geek内搜索`团子翻译器`，点击卸载
 3. 会提示卸载失败，您要清理XXXX，点击`是`
 
@@ -149,6 +149,7 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 7. 如果是显示为其他应用，接着在cmd窗口输入`taskkill /f /t /im 3488`，后面的3488同样是根据前面获得的进程id跟着改变
 8. 打开本地ocr重试
 
+<!--
 ### 替换本地ocr
 - 正常用户不需要进行此替换，部分用户本地ocr无法运行，且文档内也没提供相关解决方法时，可替换本地ocr文件后重试
 1. 下载[本地ocr替换文件](https://l2.drive.c4a15wh.cn/api/v3/slave/source/0/dXBsb2Fkcy8yLzIwMjIvMTIvMjIvM1FET3JzdFJfb2NyMy42LjIrcnUuemlw/ocr3.6.2+ru.zip?sign=bQUQcI23zsN8lX5PD21mMBcqdsQvV4QAVD-WjKhbUrc%3D%3A0)
@@ -158,6 +159,7 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 ![替换文件夹](../assets/img/127.webp ':size=50%')
 
 4. 打开翻译器后再次启动本地ocr
+-->
 
  # **在线ocr相关问题**
 ## 在线ocr相关问题
