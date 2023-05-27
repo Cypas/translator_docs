@@ -54,10 +54,7 @@
 
     - ![开通付费版](../assets/img/5550.webp ':size=50%')
 
-8.  出现下面这个概况的页面后，再[打开新建密钥页面](https://console.cloud.tencent.com/cam/capi)
-
-    - ![概况](../assets/img/37.webp ':size=50%')
-
+8.  开通机器翻译后，再打开[新建密钥页面](https://console.cloud.tencent.com/cam/capi)
 9. 点击下面的新建密钥 
 
     - ![新建密钥](../assets/img/38.webp ':size=50%')
