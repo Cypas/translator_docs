@@ -201,6 +201,40 @@
 
 ?>[点此返回翻译器教程](/4.0/basic/dangotranslator#配置翻译源)
 
+## **阿里翻译接口**
+## 阿里翻译接口
+!>如果注册后有阿里的工作人员给你打电话，就说自己`用于学习外语使用`，或是直接挂断电话也可以,客服打你电话是以为你是有钱的大客户，于是来推销服务~~尽管并不是~~，总之不要在意就行
+
+- 阿里翻译免费额度为`100w字符/每月`，`超出部分按100w字符/50元计费`，如果超出字符，且账号没有余额，最多会产生一个小时内的欠费账单，具体参考[阿里云机器翻译产品定价](https://help.aliyun.com/document_detail/197134.html)
+- [点击查看阿里翻译使用量](https://mt.console.aliyun.com/service)
+
+1. [点我打开阿里云网站](https://www.aliyun.com/),点击`右上角登录/注册`
+   - ![支付宝或淘宝登录](../assets/img/192.webp)
+2. 建议使用下面的支付宝或淘宝直接登录，可以省去实名认证
+3. 登录完成并实名认证后，打开[阿里云机器翻译](https://www.aliyun.com/product/ai/base_alimt)页面,点击`立即开通`
+   - ![点击立即开通](../assets/img/193.webp)
+
+4. 勾选用户协议，点击`立即开通`
+   - ![勾选用户协议](../assets/img/194.webp)
+
+5. 点击管理控制台
+   - ![点击管理控制台](../assets/img/195.webp)
+
+6. 鼠标移到右上角头像上，点击`AccessKey管理`
+   - ![点击AccessKey管理](../assets/img/196.webp)
+
+7. 选择`继续使用AccessKey`，(如对安全有需求，也可以选择`开始使用子用户AccessKey`，并对子账号`添加翻译相关权限`)
+   - ![继续使用AccessKey](../assets/img/197.webp)
+
+8. 点击`创建AccessKey`，并通过短信校验等认证方式
+   - ![img_3.png](../assets/img/198.webp)
+
+9. 复制这里的两个密钥到团子翻译器内`阿里云`的密钥编辑框
+   - ![img_4.png](../assets/img/199.webp)
+   - ![img_5.png](../assets/img/200.webp)
+10. 随后关闭团子翻译器密钥页面，点击`测试`按钮，看能否正常使用
+
+?>[点此返回翻译器教程](/4.0/basic/dangotranslator#配置翻译源)
 
 ## **ChatGPT翻译**
 ## ChatGPT翻译
