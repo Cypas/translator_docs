@@ -209,8 +209,9 @@
 - [点击查看阿里翻译使用量](https://mt.console.aliyun.com/service)
 
 1. [点我打开阿里云网站](https://www.aliyun.com/),点击`右上角登录/注册`
-   - ![支付宝或淘宝登录](../assets/img/192.webp)
 2. 建议使用下面的支付宝或淘宝直接登录，可以省去实名认证
+   - ![支付宝或淘宝登录](../assets/img/192.webp)
+
 3. 登录完成并实名认证后，打开[阿里云机器翻译](https://www.aliyun.com/product/ai/base_alimt)页面,点击`立即开通`
    - ![点击立即开通](../assets/img/193.webp)
 
