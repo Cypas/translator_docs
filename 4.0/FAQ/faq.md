@@ -90,7 +90,9 @@
 [Errno 22] Invalid argument
 ```
 #### 解决方法
-- 您的电脑环境不支持使用本地ocr，请更换其他在线ocr
+- 更新本地ocr到最新版本，具体步骤为关闭本地ocr窗口后，点击本地ocr页面的`卸载`，再点击`安装`，之后再启动本地ocr试试看
+  - ![重装本地ocr](../assets/img/206.webp ':size=50%')
+- 如果更新最新版ocr也无法解决，则可能是您的电脑环境不支持使用本地ocr，请更换其他在线ocr
 
 ### check_hostname requires server_hostname
 - 完整报错信息
