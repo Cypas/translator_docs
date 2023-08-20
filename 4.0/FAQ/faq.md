@@ -5,7 +5,7 @@
  - `4.2.6`版本后可以在全屏游戏下使用
 
 ### Q:团子翻译器有移动端吗？
- - 未来可能有，短时间内不会
+ - 正在开发中
 
 
  # **翻译器相关问题**
@@ -105,6 +105,7 @@ ValueError: check_hostname requires server_hostname
 - 首次运行本地ocr时，不能开启代理，会导致部分环境文件下载失败
 - 请先关闭本地代理软件后，重新打开本地ocr
 
+<!--
 ### gbk解码错误
 - 完整报错信息
 
@@ -130,6 +131,17 @@ UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 47: illegal m
 6. ![6](../assets/img/126.webp ':size=50%')
 
 7. 完成设置后，再重新打开本地ocr
+-->
+
+### cpu不支持本地ocr
+- 完整报错信息
+
+```
+ModuleNotFoundError: No module named 'paddle.fluid.core_noavx'
+```
+
+#### 解决方法
+- 电脑cpu不支持`avx指令集`,无法运行本地ocr程序,请更换其他在线ocr
 
 ### 本地ocr所使用的端口可能被占用
 - 首先重启电脑后试试能不能用，仍显示端口被占用再使用下列方法
