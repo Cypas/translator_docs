@@ -141,7 +141,18 @@ ModuleNotFoundError: No module named 'paddle.fluid.core_noavx'
 ```
 
 #### 解决方法
-- 电脑cpu不支持`avx指令集`,无法运行本地ocr程序,请更换其他在线ocr
+- CPU过旧不支持`AVX2指令集`，无法运行本地ocr程序,请更换其他在线ocr
+- 若新CPU仍有该问题，需要手动开启AVX指令集
+- 查询自己电脑cpu是否支持`AVX2指令集`的方法
+  - 打开windows设置-关于，`with`前面的这串英文一般就是电脑cpu
+    - ![查看cpu型号](../assets/img/264.webp ':size=50%')
+  - 打开[bing搜索](https://bing.com),输入`[上面查到的cpu型号] cpu指令集扩展 site:cpu-panda.com`,如我上面查到的是`AMD Ryzen 5 4600H`，则搜索`AMD Ryzen 5 4600H cpu指令集扩展 site:cpu-panda.com`
+  - 打开第一个搜索结果
+    - ![打开第一个搜索结果](../assets/img/265.webp ':size=50%')
+  - 结果页面往下翻找到`技术细节`这个标题，查看指令集扩展这一栏是否含有`AVX2`
+    - ![找到技术细节](../assets/img/265.webp ':size=50%')
+  - 如果含有`AVX2`，在使用本地ocr时仍显示上面报错信息，可以去搜索`[上面查到的cpu型号] 开启AVX2指令集`
+  - 如果不含有`AVX2`，则说明CPU过旧不支持`AVX2指令集`，无法运行本地ocr程序,请更换其他在线ocr
 
 ### 本地ocr所使用的端口可能被占用
 - 首先重启电脑后试试能不能用，仍显示端口被占用再使用下列方法
