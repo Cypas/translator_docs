@@ -11,7 +11,6 @@
 - 账号系统，能够自动云端保存配置  
 
 ## 使用指南
-[非官方快速使用指南(现版本已不适用)](/user_manual.md)(由[三岁](https://github.com/jhcgt4869)提供)
 
 [官方在线文档](https://docs1.ayano.top/#/4.0/basic/start)
 
