@@ -25,7 +25,7 @@
   - ![安装按钮](../assets/img/137.webp ':size=50%')
 
 - 第一次运行本地ocr时需要较长时间来部署一系列环境进行初始化，之后就不再需要这么长时间启动了
--->
+
 1. 打开翻译器设置页面，点击本地ocr旁边的运行按钮
 
    - ![点击运行按钮](../assets/img/138.webp ':size=50%')
@@ -34,11 +34,10 @@
 
    - ![运行成功提示](../assets/img/108_3.webp ':size=80%')
 
-<!-- 
+
 ![运行成功提示](../assets/img/108_1.webp ':size=50%')
 
 3. 当出现`团子本地ocr启动完毕`这个提示信息时，就表示已经本地ocr已经启动完成，将这个窗口`最小化保持运行`即可
--->
 
 3. 当出现类似`团子本地OCR启动完毕`这个提示信息时，就表示已经本地ocr已经启动完成，将这个窗口`最小化保持运行`即可
 - 部分版本的本地ocr提示信息是`Running on http://192.168.1.3:6666/ (Press CTRL+C to quit)`
@@ -46,6 +45,19 @@
 4. 回到翻译器页面，这时我们就可以打开本地ocr开关了(本地ocr未启动完成时会禁止打开)
 
    - ![打开本地ocr开关](../assets/img/139.webp ':size=50%')
+-->
+
+1. 首次运行时，需要先点击`安装`，再点击`运行`，等待大约3s,运行完成后，再点击`测试`
+
+    -  ![运行本地ocr](../assets/img/280.webp ':size=70%')
+
+2. 正常运行情况下，测试结果应该是下图这样
+
+    -  ![本地ocr测试](../assets/img/281.webp ':size=50%')
+
+3. 然后再打开本地ocr开关即可使用
+
+    -  ![打开本地ocr开关](../assets/img/282.webp ':size=50%')
 
 >[点此返回翻译器教程](/5.0/basic/dangotranslator#配置ocr源)
 
@@ -56,19 +68,19 @@
 #### 使用教程
 1. 打开`试用在线ocr`选项，可以免费试用`100`次ocr识别，如需购买请看步骤2
 
-![免费试用](../assets/img/152.webp ':size=50%')
+    -  ![免费试用](../assets/img/152.webp ':size=50%')
 
 2. 点击在线ocr的购买按钮
 
-![查看应用详情](../assets/img/153.webp ':size=50%')
+    -  ![查看应用详情](../assets/img/153.webp ':size=50%')
 
 3. 会打开浏览器并自动跳转到星河云平台且完成用户登录，在线ocr需要购买的是上面一排的`光学文字识别`，根据需要购买不同时长的服务包后就可以了
 
-![查看应用详情](../assets/img/111_2.webp ':size=50%')
+    -  ![查看应用详情](../assets/img/111_2.webp ':size=50%')
 
 4. 回到翻译器页面，再打开在线ocr开关就行了
 
-![打开在线ocr开关](../assets/img/154.webp ':size=50%')
+    -  ![打开在线ocr开关](../assets/img/154.webp ':size=50%')
 
 5. 购买了在线ocr后并不意味着软件可以直接使用了，仍需要继续配置翻译源
 
@@ -98,53 +110,53 @@
    
 3. 点击右下角的`立刻领取`
 
-![立刻领取](../assets/img/48.webp ':size=50%')
+    -  ![立刻领取](../assets/img/48.webp ':size=50%')
 
 4. 点击`立刻认证`
 
-![立刻认证](../assets/img/49.webp ':size=50%')
+    -  ![立刻认证](../assets/img/49.webp ':size=50%')
 
-4. 点击`个人认证`
+5. 点击`个人认证`
 
-![个人认证](../assets/img/50.webp ':size=50%')
+    -  ![个人认证](../assets/img/50.webp ':size=50%')
 
-5. 如之前百度翻译已经实名认证过，这里直接`确定`就行，没有实名认证的输入一下自己个人信息也就可以了
+6. 如之前百度翻译已经实名认证过，这里直接`确定`就行，没有实名认证的输入一下自己个人信息也就可以了
 
-![确定信息](../assets/img/51.webp ':size=50%')
+    -  ![确定信息](../assets/img/51.webp ':size=50%')
 
-6. 高级认证这个不用管，返回[百度ocr注册网址](https://console.bce.baidu.com/ai/?_=1579777147726&fromai=1#/ai/ocr/overview/index)
+7. 高级认证这个不用管，返回[百度ocr注册网址](https://console.bce.baidu.com/ai/?_=1579777147726&fromai=1#/ai/ocr/overview/index)
 
-![高级认证](../assets/img/52.webp ':size=50%')
+    -  ![高级认证](../assets/img/52.webp ':size=50%')
 
-7. 再次点击右下角的`立刻领取`
+8. 再次点击右下角的`立刻领取`
 
-![立刻领取2](../assets/img/48.webp ':size=50%')
+    -  ![立刻领取2](../assets/img/48.webp ':size=50%')
 
-8. 接口名字勾选`全部`，然后点击`0元领取`
+9. 接口名字勾选`全部`，然后点击`0元领取`
 
-![0元领取](../assets/img/54.webp ':size=50%')
+    -  ![0元领取](../assets/img/54.webp ':size=50%')
 
-9. 领取成功后再再回到[百度ocr注册网址](https://console.bce.baidu.com/ai/?_=1579777147726&fromai=1#/ai/ocr/overview/index)
+10. 领取成功后再再回到[百度ocr注册网址](https://console.bce.baidu.com/ai/?_=1579777147726&fromai=1#/ai/ocr/overview/index)
 
-10. 点击`创建应用`
+11. 点击`创建应用`
 
-![创建应用](../assets/img/53.webp ':size=50%')
+    -  ![创建应用](../assets/img/53.webp ':size=50%')
 
-11. 应用名字例如填写`本地文字识别`，接口选择默认的就行，文字识别包名:`不需要`，应用归属:`个人`，应用描述：例如`一款本地ocr小程序，用于毕业设计`
+12. 应用名字例如填写`本地文字识别`，接口选择默认的就行，文字识别包名:`不需要`，应用归属:`个人`，应用描述：例如`一款本地ocr小程序，用于毕业设计`
 
-![创建应用2](../assets/img/55.webp ':size=50%')
+    -  ![创建应用2](../assets/img/55.webp ':size=50%')
 
-12. 创建完毕后，点击`查看应用详情`
+13. 创建完毕后，点击`查看应用详情`
 
-![创建完毕](../assets/img/56.webp ':size=50%')
+    -  ![创建完毕](../assets/img/56.webp ':size=50%')
 
-13. 应用详情的API Key和Secret Key就是我们需要的密钥
+14. 应用详情的API Key和Secret Key就是我们需要的密钥
 
-![查看应用详情](../assets/img/57.webp ':size=50%')
+    -  ![查看应用详情](../assets/img/57.webp ':size=50%')
 
-14. 将密钥填入团子翻译器百度ocr密钥的地方，然后打开百度ocr开关
+15. 将密钥填入团子翻译器百度ocr密钥的地方，然后打开百度ocr开关
 
-![百度ocr密钥](../assets/img/142.webp ':size=50%')
+    -  ![百度ocr密钥](../assets/img/142.webp ':size=50%')
 
 >[点此返回翻译器教程](/5.0/basic/dangotranslator#配置ocr源)
 <!-- tabs:end -->
