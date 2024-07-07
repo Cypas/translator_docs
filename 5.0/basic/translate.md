@@ -8,7 +8,7 @@
 |[腾讯](/5.0/basic/translate#腾讯翻译)|500w字符/月|⭐⭐⭐⭐|⭐⭐⭐||
 |[百度](/5.0/basic/translate#百度翻译)|100w字符/月|⭐⭐⭐⭐|⭐⭐⭐||
 |[gpt](/5.0/basic/translate#ChatGPT翻译)|gpt3.5模型为1千万tokens/5美元|⭐⭐⭐|⭐⭐⭐⭐⭐|最强翻译源，注册较麻烦，耗时比较高，不太适用于实时翻译，更适合图片翻译|
-|[tgw本地翻译模型](/5.0/basic/translate#TGW本地翻译模型)|不限次数|⭐⭐⭐|⭐⭐⭐⭐⭐|部署难度较高，需要花较多精力，对显卡要求很高(6G显存及以上)| 
+|[Sakura本地翻译模型](/5.0/basic/translate#Sakura本地翻译模型)|不限次数|⭐⭐⭐|⭐⭐⭐⭐⭐|部署难度较高，需要花较多精力，对显卡要求很高(12G显存及以上)| 
 |[阿里](/5.0/basic/translate#阿里翻译)|100w字符/每月|⭐⭐⭐|⭐⭐⭐||
 |[彩云](/5.0/basic/translate#彩云小译)|`一次性`100w字符|⭐⭐|⭐⭐⭐⭐|在翻译二次元相关内容时表现较好|
 |[有道](/5.0/basic/translate#有道翻译)|`一次性`约120w字符|⭐⭐|⭐⭐⭐||
@@ -418,16 +418,46 @@
     - 国内用户若希望付费来提高速率，建议搜索引擎搜索`第三方gpt平台`付费使用，并修改api接口地址(举例来说，若平台仅提供了`https://xxxx.net`这样的域名，接口地址应在后面加上`/v1/chat/completions`，即翻译器内api接口地址填写`https://xxxx.net/v1/chat/completions`)，这些平台基本都是花钱购买点数后，使用他们的接口地址和他们的token进行请求就行(具体接口地址和token获取见平台各自文档)
     - 第三方gpt平台仅供参考，平台所产生的费用与团子翻译器无关
 
-## **TGW本地翻译模型**
-## TGW本地翻译模型
-!> 本翻译源需要较强电脑方面的动手能力，需要至少6G显存以上的显卡(20系显卡及以上)，`不推荐所有人使用`
-- tgw本地翻译模型本质上为模型启动器，可以装载并运行其他开源的语言聊天模型，翻译器只是通过prompt将其变为了翻译源
+## **Sakura本地翻译模型**
+## Sakura本地翻译模型说明
+!> 本翻译源需要较强电脑方面的动手能力，需要至少12G显存以上的显卡(30系显卡及以上)，`不推荐所有人使用`
+- Sakura是模型的名称，还需要启动器才可以运行，可选的启动器有两种，[llama启动器](/5.0/basic/translate#Sakurallama教程)和[tgw启动器](/5.0/basic/translate#Sakuratgw教程),任选一种就行，比较推荐llama启动器
+- Sakura开源的语言聊天模型，类比的话就是gpt聊天模型，翻译器只是通过prompt将其变为了翻译源
 - 一般来讲，模型的后缀数字越大(如7b和13b),对显存要求越高，翻译质量也会更好，sakura—13b的模型能近似与gpt3.5的翻译质量,但同时要求显卡有14G以上显存
 
-### 注册教程
+## Sakura(llama)教程
+1. 首先下载llama启动器，在下列下载链接中选择一个打开
+    - [百度网盘](https://pan.baidu.com/s/1YoEZzWjwqkK78ulQlQg5rg?pwd=2859)
+    - [GitHub](https://github.com/FishHawk/sakura-launcher/releases/tag/b2859)
+    - [OneDriver](https://1drv.ms/f/s!AjPIUNMWbIi0gU_eT41gJ6RAayk0)
+
+2. 根据你电脑所使用的显卡类型，选择一个zip压缩包下载，并将其解压
+    - N卡(NVIDIA显卡):
+      - 先试试`sakura-launcher-cuda12-b2859.zip`
+      - 如果CUDA版本不支持，就换`sakura-launcher-cuda11-b2859.zip`，或者更新显卡驱动。
+    - A卡(AMD显卡)/核显:可以试试vulkan版本。
+      - `sakura-launcher-vulkan-b2859.zip`
+
+3. 接下来需要下载Sakura模型文件，打开[Sakura模型发布页](https://huggingface.co/SakuraLLM)，根据你的需求下载对应的模型文件，无法访问或下载过慢可以使用[国内镜像](https://hf-mirror.com/SakuraLLM)，然后根据你的显卡显存大小在下面几个模型中选择
+   - `sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf`模型
+     - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf)，运行需要至少12g显存
+   - `sakura-32b-qwen2beta-v0.9.1-iq4xs.gguf`模型
+     - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-32B-Qwen2beta-v0.9.1-GGUF/blob/main/sakura-32b-qwen2beta-v0.9.1-iq4xs.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-32B-Qwen2beta-v0.9.1-GGUF/blob/main/sakura-32b-qwen2beta-v0.9.1-iq4xs.gguf)，运行需要至少20g显存
+   - ![下载](../assets/img/298.webp ':size=50%')
+4. 模型文件下载后，将其放在llama启动器解压后的`sakura-launcher`开头的文件夹内，如`sakura-launcher-cuda11-b2859`文件夹内
+   - ![移动模型](../assets/img/299.webp ':size=100%')
+5. 双击该文件夹下的`启动Sakura服务器-显卡.bat`开始运行模型，会打开一个黑窗，最小化这个黑窗后，回到翻译器页面
+6. 在Sakura(llama)的`设置`这里，也可以将上述的`启动Sakura服务器-显卡.bat`添加至模型启动器位置，更方便打开模型
+   - ![关联位置](../assets/img/300.webp ':size=100%')
+7. 点击Sakura(llama)的`测试`，看模型是否运行成功，测试成功后再打开该翻译源接口
+   - 若提示测试出错，可截图Sakura模型运行的黑色窗口，并发送到用户群寻求帮助
+   - ![关联位置](../assets/img/301.webp ':size=100%')
+
+## Sakura(tgw)教程
 1. 部署和安装教程很长，具体可参考[tgw部署视频](https://www.bilibili.com/video/BV15F4m1j7Yf/?share_source=copy_web&vd_source=260cad55a891c7cebca042140c9ecd70&t=257)
 
 2. 确认tgw完成部署并运行模型后，打开翻译器内该翻译源的开关，并点击测试，看能否正常运行
-   -  ![测试tgw](../assets/img/279.webp ':size=50%')
+   - ![测试tgw](../assets/img/302.webp ':size=100%')
+
 
 <!-- tabs:end -->
