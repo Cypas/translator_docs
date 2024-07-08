@@ -8,7 +8,7 @@
 |[腾讯](/5.0/basic/translate#腾讯翻译)|500w字符/月|⭐⭐⭐⭐|⭐⭐⭐||
 |[百度](/5.0/basic/translate#百度翻译)|100w字符/月|⭐⭐⭐⭐|⭐⭐⭐||
 |[gpt](/5.0/basic/translate#ChatGPT翻译)|gpt3.5模型为1千万tokens/5美元|⭐⭐⭐|⭐⭐⭐⭐⭐|最强翻译源，注册较麻烦，耗时比较高，不太适用于实时翻译，更适合图片翻译|
-|[Sakura本地翻译模型](/5.0/basic/translate#Sakura本地翻译模型)|不限次数|⭐⭐⭐|⭐⭐⭐⭐⭐|部署难度较高，需要花较多精力，对显卡要求很高(12G显存及以上)| 
+|[Sakura本地翻译模型](/5.0/basic/translate#Sakura本地翻译模型)|不限次数|⭐⭐⭐|⭐⭐⭐⭐⭐|部署难度较高，需要花较多精力，对显卡要求很高(8G显存及以上)| 
 |[阿里](/5.0/basic/translate#阿里翻译)|100w字符/每月|⭐⭐⭐|⭐⭐⭐||
 |[彩云](/5.0/basic/translate#彩云小译)|`一次性`100w字符|⭐⭐|⭐⭐⭐⭐|在翻译二次元相关内容时表现较好|
 |[有道](/5.0/basic/translate#有道翻译)|`一次性`约120w字符|⭐⭐|⭐⭐⭐||
@@ -420,10 +420,10 @@
 
 ## **Sakura本地翻译模型**
 ## Sakura本地翻译模型说明
-!> 本翻译源需要较强电脑方面的动手能力，需要至少12G显存以上的显卡(30系显卡及以上)，`不推荐所有人使用`
+!> 本翻译源需要较强电脑方面的动手能力，需要至少8G显存以上的显卡(20系显卡及以上)，`不推荐所有人使用`
 - Sakura是模型的名称，还需要启动器才可以运行，可选的启动器有两种，[llama启动器](/5.0/basic/translate#Sakurallama教程)和[tgw启动器](/5.0/basic/translate#Sakuratgw教程),任选一种就行，比较推荐llama启动器
 - Sakura开源的语言聊天模型，类比的话就是gpt聊天模型，翻译器只是通过prompt将其变为了翻译源
-- 一般来讲，模型的后缀数字越大(如7b和13b),对显存要求越高，翻译质量也会更好，sakura—13b的模型能近似与gpt3.5的翻译质量,但同时要求显卡有14G以上显存
+- 一般来讲，模型的后缀数字越大(如7b和13b),对显存要求越高，翻译质量也会更好，sakura—13b的模型能近似与gpt3.5的翻译质量,但同时要求显卡有14G以上显存;显卡弱一些的也可以试试GalTransl-7B模型，需要8G显存，针对galgame单独做过优化，在翻译效果上也很不错
 
 ## Sakura(llama)教程
 1. 首先下载llama启动器，在下列下载链接中选择一个打开
@@ -432,13 +432,15 @@
     - [OneDriver](https://1drv.ms/f/s!AjPIUNMWbIi0gU_eT41gJ6RAayk0)
 
 2. 根据你电脑所使用的显卡类型，选择一个zip压缩包下载，并将其解压
-    - N卡(NVIDIA显卡):
+    - N卡(NVIDIA显卡): 
       - 先试试`sakura-launcher-cuda12-b2859.zip`
       - 如果CUDA版本不支持，就换`sakura-launcher-cuda11-b2859.zip`，或者更新显卡驱动。
     - A卡(AMD显卡)/核显:可以试试vulkan版本。
       - `sakura-launcher-vulkan-b2859.zip`
 
 3. 接下来需要下载Sakura模型文件，打开[Sakura模型发布页](https://huggingface.co/SakuraLLM)，根据你的需求下载对应的模型文件，无法访问或下载过慢可以使用[国内镜像](https://hf-mirror.com/SakuraLLM)，然后根据你的显卡显存大小在下面几个模型中选择
+   - `GalTransl-7B-v1.5-Q6_K.gguf`模型
+       - [HuggingFace国外源](https://huggingface.co/SakuraLLM/GalTransl-7B-v1.5/blob/main/GalTransl-7B-v1.5-Q6_K.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/GalTransl-7B-v1.5/blob/main/GalTransl-7B-v1.5-Q6_K.gguf)，运行需要至少8g显存
    - `sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf`模型
      - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf)，运行需要至少12g显存
    - `sakura-32b-qwen2beta-v0.9.1-iq4xs.gguf`模型
