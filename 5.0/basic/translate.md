@@ -439,8 +439,8 @@
       - `sakura-launcher-vulkan-b2859.zip`
 
 3. 接下来需要下载Sakura模型文件，打开[Sakura模型发布页](https://huggingface.co/SakuraLLM)，根据你的需求下载对应的模型文件，无法访问或下载过慢可以使用[国内镜像](https://hf-mirror.com/SakuraLLM)，然后根据你的显卡显存大小在下面几个模型中选择
-   - `GalTransl-7B-v1.5-Q6_K.gguf`模型
-       - [HuggingFace国外源](https://huggingface.co/SakuraLLM/GalTransl-7B-v1.5/blob/main/GalTransl-7B-v1.5-Q6_K.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/GalTransl-7B-v1.5/blob/main/GalTransl-7B-v1.5-Q6_K.gguf)，运行需要至少8g显存
+   - `sakura-7b-lnovel-v0.9-Q4_K_M.gguf`模型
+       - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-7B-LNovel-v0.9-GGUF/blob/main/sakura-7b-lnovel-v0.9-Q4_K_M.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-7B-LNovel-v0.9-GGUF/blob/main/sakura-7b-lnovel-v0.9-Q4_K_M.gguf)，运行需要至少8g显存
    - `sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf`模型
      - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf)，运行需要至少12g显存
    - `sakura-32b-qwen2beta-v0.9.1-iq4xs.gguf`模型
