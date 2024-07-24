@@ -447,9 +447,9 @@
      - `sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf`模型，运行需要至少12g显存
        - [HuggingFace国外源](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf) / [国内镜像源](https://hf-mirror.com/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF/blob/main/sakura-14b-qwen2beta-v0.9.2-iq4xs.gguf)
    - `qwen系列模型`，只支持英文
-     - `codeqwen-1.5-7b-chat-q8_0.gguf`模型，运行需要至少8g显存
-       - [HuggingFace国外源](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat-GGUF/blob/main/codeqwen-1_5-7b-chat-q8_0.gguf) / [国内镜像源](https://hf-mirror.com/Qwen/CodeQwen1.5-7B-Chat-GGUF/blob/main/codeqwen-1_5-7b-chat-q8_0.gguf)
-     - `codeqwen-1.5-14b-chat-q8_0.gguf`模型，运行需要至少12g显存
+     - `qwen-1.5-7b-chat-q8_0.gguf`模型，运行需要至少8g显存
+       - [HuggingFace国外源](https://huggingface.co/Qwen/Qwen1.5-7B-Chat-GGUF/blob/main/qwen1_5-7b-chat-q8_0.gguf) / [国内镜像源](https://hf-mirror.com/Qwen/Qwen1.5-7B-Chat-GGUF/blob/main/qwen1_5-7b-chat-q8_0.gguf)
+     - `qwen-1.5-14b-chat-q8_0.gguf`模型，运行需要至少12g显存
        - [HuggingFace国外源](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF/blob/main/qwen1_5-14b-chat-q8_0.gguf) / [国内镜像源](https://hf-mirror.com/Qwen/Qwen1.5-14B-Chat-GGUF/blob/main/qwen1_5-14b-chat-q8_0.gguf)
    - ![下载](../assets/img/298.webp ':size=50%')
 
