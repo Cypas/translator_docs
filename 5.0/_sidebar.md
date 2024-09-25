@@ -18,3 +18,9 @@
 - [更新日志](/5.0/develop/changelog)
 - [项目说明](/5.0/develop/technology)
 
+📕 软件协议
+- [用户协议](/5.0/agreement/user_agreement)
+- [隐私协议](/5.0/agreement/privacy)
+- [未成年人隐私协议](/5.0/agreement/minor_privacy)
+- [个人信息查阅和管理](/5.0/agreement/personal)
+- [第三方数据共享清单](/5.0/agreement/third_party)
