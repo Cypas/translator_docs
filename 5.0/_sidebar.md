@@ -23,4 +23,3 @@
 - [隐私协议](/5.0/agreement/privacy)
 - [未成年人隐私协议](/5.0/agreement/minor_privacy)
 - [个人信息查阅和管理](/5.0/agreement/personal)
-- [第三方数据共享清单](/5.0/agreement/third_party)
