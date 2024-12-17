@@ -12,7 +12,7 @@
 
 ## 使用指南
 
-[官方在线文档](https://docs1.ayano.top/#/4.0/basic/start)
+[官方在线文档](https://docs1.ayano.top/#/5.0/basic/start)
 
 ## 软件页面截图
 ### 登录页面
